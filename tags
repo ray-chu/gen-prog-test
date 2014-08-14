@@ -1,0 +1,1549 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+APFound	golf.ml	/^exception APFound      (* raised if an alias pair is found, a control$/;"	e
+Asmrep	asmrep.ml	/^(*$/;"	M
+AtomSet	rep.ml	/^module AtomSet = IntSet$/;"	M
+B	golf.ml	/^module B = S.Make (Bound)$/;"	M
+Bad_function	ptranal.ml	/^exception Bad_function$/;"	e
+Bad_return	ptranal.ml	/^exception Bad_return$/;"	e
+C	golf.ml	/^module C = Set.Make (Constant)$/;"	M
+CH	golf.ml	/^module CH = H.Make (ConfigHash)$/;"	M
+CannotPartition	progeq.ml	/^exception CannotPartition$/;"	e
+Cdiff	cdiff.ml	/^(*$/;"	M
+Cdiffmain	cdiffmain.ml	/^(*$/;"	M
+Cgrep	cgrep.ml	/^(*$/;"	M
+Cilprinter	cilprinter.ml	/^(*$/;"	M
+Cilrep	cilrep.ml	/^(*$/;"	M
+Closing	nhtserver.ml	/^  | Closing $/;"	C	type:connection_state
+ConstraintSet	template.ml	/^module ConstraintSet = Set.Make(OrderedConstraint)$/;"	M
+Delete	cdiff.ml	/^  | Delete of int $/;"	C	type:edit_action
+Delete	diffprocessor.ml	/^  | Delete of string * (int * int) * string list$/;"	C	type:final_action
+DiffElement	minimization.ml	/^module DiffElement =$/;"	M
+DiffSet	minimization.ml	/^module DiffSet = Set.Make(DiffElement)$/;"	M
+Diffprocessor	diffprocessor.ml	/^(*$/;"	M
+Distglobal	distglobal.ml	/^(*$/;"	M
+Distserver	distserver.ml	/^(*$/;"	M
+E	cilprinter.ml	/^module E = Errormsg$/;"	M
+Edit	edit.ml	/^(*$/;"	M
+EffectSet	progeq.ml	/^module EffectSet = Set.Make(OrderedEffect)$/;"	M
+Elf	elf.ml	/^(*$/;"	M
+Elfrep	elfrep.ml	/^(*$/;"	M
+ExactMatches	template.ml	/^                    | ExactMatches of string | FuzzyMatches of string | HasType of string (* name? *)$/;"	C	type:constraints
+Exp	cilrep.ml	/^  | Exp of Cil.exp $/;"	C	type:cilRep_atom
+Exp_hole	template.ml	/^type hole_type = Stmt_hole | Exp_hole | Lval_hole$/;"	C	type:hole_type
+F	ptranal.ml	/^module F = Map.Make (VarInfoKey)$/;"	M
+Fault_path	template.ml	/^type constraints =  Fault_path | Fix_path | Ref of string | InScope of string $/;"	C	type:constraints
+File_IO	progeq.ml	/^  | File_IO (* fprintf, fseek, etc. -- cannot move past another File_IO *) $/;"	C	type:effect
+Fitness	fitness.ml	/^(*$/;"	M
+Fix_path	template.ml	/^type constraints =  Fault_path | Fix_path | Ref of string | InScope of string $/;"	C	type:constraints
+Found_BreakContinue	cilrep.ml	/^exception Found_BreakContinue$/;"	e
+Found_It	cdiff.ml	/^exception Found_It $/;"	e
+Found_Node	cdiff.ml	/^exception Found_Node of tree_node $/;"	e
+Found_Stmtkind	cilrep.ml	/^exception Found_Stmtkind of Cil.stmtkind$/;"	e
+Found_repair	search.ml	/^exception Found_repair of string$/;"	e
+FuzzyMatches	template.ml	/^                    | ExactMatches of string | FuzzyMatches of string | HasType of string (* name? *)$/;"	C	type:constraints
+GPPopulation	population.ml	/^module GPPopulation =$/;"	M
+Gaussian	gaussian.ml	/^(*$/;"	M
+Gaussian	gaussian.ml	/^module Gaussian = struct$/;"	M
+Global	global.ml	/^(*$/;"	M
+Golf	golf.ml	/^(* Tue Apr 23 10:16:43 EDT 2013 WRW -- this is a copy of 'golf.ml' from$/;"	M
+H	ptranal.ml	/^module H = Hashtbl$/;"	M
+HasType	template.ml	/^                    | ExactMatches of string | FuzzyMatches of string | HasType of string (* name? *)$/;"	C	type:constraints
+HasVar	template.ml	/^                    | IsLocal | IsGlobal | HasVar of string$/;"	C	type:constraints
+HoleSet	template.ml	/^module HoleSet = Set.Make(OrderedHole)$/;"	M
+InScope	template.ml	/^type constraints =  Fault_path | Fix_path | Ref of string | InScope of string $/;"	C	type:constraints
+Inconsistent	golf.ml	/^exception Inconsistent (* raised if constraint system is inconsistent *)$/;"	e
+Insert	cdiff.ml	/^  | Insert of int * (int option) * (int option)$/;"	C	type:edit_action
+Insert	diffprocessor.ml	/^  | Insert of string * string list * int * string list$/;"	C	type:final_action
+IsGlobal	template.ml	/^                    | IsLocal | IsGlobal | HasVar of string$/;"	C	type:constraints
+IsLocal	template.ml	/^                    | IsLocal | IsGlobal | HasVar of string$/;"	C	type:constraints
+Knownfuns	knownfuns.ml	/^(*$/;"	M
+Llvmrep	llvmrep.ml	/^(*$/;"	M
+Lval_hole	template.ml	/^type hole_type = Stmt_hole | Exp_hole | Lval_hole$/;"	C	type:hole_type
+Main	main.ml	/^(*$/;"	M
+Maximum_evals	search.ml	/^exception Maximum_evals of int$/;"	e
+Minimization	minimization.ml	/^(*$/;"	M
+MissingDefinition	cilrep.ml	/^exception MissingDefinition of string$/;"	e
+Move	cdiff.ml	/^  | Move   of int * (int option) * (int option)$/;"	C	type:edit_action
+Move	diffprocessor.ml	/^  | Move of string * string list * int * (int * int) * string list$/;"	C	type:final_action
+Multiopt	multiopt.ml	/^(*$/;"	M
+My_Break	pellacini.ml	/^exception My_Break $/;"	e
+My_Continue	pellacini.ml	/^exception My_Continue $/;"	e
+My_Return	pellacini.ml	/^exception My_Return of constant option $/;"	e
+Necessary_line	cdiff.ml	/^exception Necessary_line$/;"	e
+Network	network.ml	/^(*$/;"	M
+Nhtserver	nhtserver.ml	/^(*$/;"	M
+NoContents	golf.ml	/^exception NoContents$/;"	e
+NodeMap	cdiff.ml	/^module NodeMap = Set.Make(OrderedNodeNode)$/;"	M
+NodeSet	cdiff.ml	/^module NodeSet = Set.Make(OrderedNode)$/;"	M
+Nop	diffprocessor.ml	/^  | Nop of int$/;"	C	type:final_action
+Not_Supported	elfrep.ml	/^exception Not_Supported of string$/;"	e
+OrderedConstraint	template.ml	/^module OrderedConstraint = $/;"	M
+OrderedEffect	progeq.ml	/^module OrderedEffect =$/;"	M
+OrderedNode	cdiff.ml	/^module OrderedNode =$/;"	M
+OrderedNodeNode	cdiff.ml	/^module OrderedNodeNode =$/;"	M
+Other	progeq.ml	/^  | Other (* global syscall, printf, etc. -- always a dependency *)$/;"	C	type:effect
+PH	golf.ml	/^module PH = H.Make (PathHash)$/;"	M
+Path	golf.ml	/^module Path =$/;"	M
+Pellacini	pellacini.ml	/^(*$/;"	M
+Population	population.ml	/^(*$/;"	M
+Progeq	progeq.ml	/^(*$/;"	M
+Ptranal	ptranal.ml	/^(* Tue Apr 23 10:16:43 EDT 2013 WRW -- this is a copy of 'ptranal.ml' from$/;"	M
+Read_Mem	progeq.ml	/^  | Read_Mem of Cil.exp$/;"	C	type:effect
+Read_Var	progeq.ml	/^  | Read_Var of Cil.varinfo$/;"	C	type:effect
+Reading	nhtserver.ml	/^  | Reading $/;"	C	type:connection_state
+Ref	template.ml	/^type constraints =  Fault_path | Fix_path | Ref of string | InScope of string $/;"	C	type:constraints
+Rep	rep.ml	/^(*$/;"	M
+Saving	nhtserver.ml	/^  | Saving$/;"	C	type:connection_state
+Search	search.ml	/^(*$/;"	M
+Send_Failed	distglobal.ml	/^exception Send_Failed$/;"	e
+Server_Socket	nhtserver.ml	/^  | Server_Socket$/;"	C	type:connection_state
+Server_shutdown	network.ml	/^exception Server_shutdown$/;"	e
+Sourcereader	sourcereader.ml	/^(*$/;"	M
+Stats2	stats2.ml	/^(*$/;"	M
+Stmt	cilrep.ml	/^  | Stmt of Cil.stmtkind$/;"	C	type:cilRep_atom
+Stmt_hole	template.ml	/^type hole_type = Stmt_hole | Exp_hole | Lval_hole$/;"	C	type:hole_type
+Stringrep	stringrep.ml	/^(*$/;"	M
+Template	template.ml	/^(*$/;"	M
+TestMap	rep.ml	/^module TestMap = Map.Make(OrderedTest) $/;"	M
+Test_Failed	fitness.ml	/^exception Test_Failed$/;"	e
+U	golf.ml	/^module U = Uref$/;"	M
+UnknownLocation	golf.ml	/^exception UnknownLocation$/;"	e
+WellFormed	golf.ml	/^exception WellFormed   (* raised if types are not well-formed *)$/;"	e
+Write_Mem	progeq.ml	/^  | Write_Mem of Cil.exp $/;"	C	type:effect
+Write_Var	progeq.ml	/^  | Write_Var of Cil.varinfo$/;"	C	type:effect
+Writing	nhtserver.ml	/^  | Writing $/;"	C	type:connection_state
+a	pellacini.ml	/^                let a = real_ify a in $/;"	v
+a1	pellacini.ml	/^                let a1 = r.{x,y} in $/;"	v
+abort	global.ml	/^let abort fmt = $/;"	v
+absloc	golf.ml	/^type absloc = label$/;"	t
+absloc_epoints_to	golf.ml	/^let absloc_epoints_to = tauPointsTo$/;"	v
+absloc_eq	golf.ml	/^let absloc_eq (a1, a2) = smart_alias_query a1 a2$/;"	v
+absloc_eq	ptranal.ml	/^let absloc_eq a b = A.absloc_eq (a, b)$/;"	v
+absloc_of_lvalue	golf.ml	/^let absloc_of_lvalue (l : lvalue) : absloc = l.l$/;"	v
+absloc_points_to	golf.ml	/^let rec absloc_points_to (l : lvalue) : absloc list =$/;"	v
+absloc_print_name	golf.ml	/^let absloc_print_name = ref true$/;"	v
+actual	pellacini.ml	/^                       let actual = random_value_of_type local local.vtype in $/;"	v
+actual_sample	fitness.ml	/^        let actual_sample = $/;"	v
+adaptive_model_1	search.ml	/^type adaptive_model_1 = {$/;"	t
+add_distance	multiopt.ml	/^    let add_distance p delta = $/;"	v
+add_patch	cdiff.ml	/^  let add_patch fname ea = (* preserves order, fwiw *) $/;"	v
+add_to_stmt_map	cilrep.ml	/^      let add_to_stmt_map x (skind,fname) = $/;"	v
+addr_inet	network.ml	/^        let addr_inet = $/;"	v
+after	cdiff.ml	/^            let after  = Array.sub ynode.children ypos (len - ypos) in $/;"	v
+alias_computed	progeq.ml	/^let alias_computed = ref false $/;"	v
+alias_frequency	golf.ml	/^let alias_frequency (lvl : (lvalue * bool) list) : int * int =$/;"	v
+alias_query	golf.ml	/^let alias_query (b : bool) (lvl : lvalue list) : int * int =$/;"	v
+aligned	global.ml	/^              let aligned = Arg.align !options in $/;"	v
+all	template.ml	/^  all : unit -> 'a;$/;"	r	type:solver
+allConstantVisitor	pellacini.ml	/^class allConstantVisitor = object$/;"	c
+all_appends	cilrep.ml	/^      all_appends : ((atom_id * float) list) AtomMap.t ;$/;"	r	type:ast_info
+all_appends	cilrep.ml	/^      let all_appends = ref AtomMap.empty in $/;"	v
+all_edits	network.ml	/^  let all_edits = $/;"	v
+all_edits	search.ml	/^  let all_edits = deletes @ appends in$/;"	v
+all_fault	template.ml	/^  all_fault : unit -> 'a ;$/;"	r	type:solver
+all_fix	template.ml	/^  all_fix : unit -> 'a ;$/;"	r	type:solver
+all_iterations	network.ml	/^      let rec all_iterations generations (population : ('a,'b) GPPopulation.t) =$/;"	v
+all_observed	pellacini.ml	/^        let all_observed = Hashtbl.find_all output (sid,expr) in $/;"	v
+all_source_sids	cilrep.ml	/^      all_source_sids : IntSet.t ;$/;"	r	type:ast_info
+all_stmts	progeq.ml	/^    let all_stmts = ref [] in$/;"	v
+allow_coverage_fail	rep.ml	/^let allow_coverage_fail = ref false $/;"	v
+allowed	search.ml	/^                let allowed = List.map fst (WeightSet.elements allowed) in$/;"	v
+allowed	search.ml	/^                let allowed = random_order allowed in$/;"	v
+allowed	search.ml	/^                let allowed = variant#append_sources x in$/;"	v
+alv	ptranal.ml	/^          let alv =$/;"	v
+always_keep_source	rep.ml	/^let always_keep_source = ref false $/;"	v
+amount	nhtserver.ml	/^                    let amount = $/;"	v
+amount	nhtserver.ml	/^                    let amount = recv read_socket buffer 0 buffer_len [] in $/;"	v
+analyze_expr_as_lval	ptranal.ml	/^and analyze_expr_as_lval (e : exp) : A.lvalue =$/;"	v
+analyze_file	ptranal.ml	/^let analyze_file (f : file) : unit =$/;"	v
+analyze_function	ptranal.ml	/^let analyze_function (f : fundec ) : unit =$/;"	v
+analyze_global	ptranal.ml	/^let analyze_global (g : global ) : unit =$/;"	v
+analyze_init	ptranal.ml	/^let rec analyze_init (i : init ) : A.tau =$/;"	v
+analyze_lval	ptranal.ml	/^let rec analyze_lval (lv : lval ) : A.lvalue =$/;"	v
+analyze_stmt	ptranal.ml	/^let rec analyze_stmt (s : stmt ) : unit =$/;"	v
+analyze_var_decl	ptranal.ml	/^let analyze_var_decl (v : varinfo ) : A.lvalue =$/;"	v
+answer	population.ml	/^      let answer = ref [] in$/;"	v
+any_match	global.ml	/^let any_match regexp s = $/;"	v
+appVisitor	cilrep.ml	/^class appVisitor (append_after : atom_id) $/;"	c
+app_app_count	search.ml	/^let app_app_count = app_count * app_count in $/;"	v
+app_count	search.ml	/^let app_count = List.fold_left (fun n (stmt, _) -> $/;"	v
+app_prob	search.ml	/^let app_prob = ref 0.33333$/;"	v
+app_str	search.ml	/^      	let app_str = (Printf.sprintf "a(%d,%d)" dest src) in$/;"	v
+app_str	search.ml	/^      	let app_str = (Printf.sprintf "d(%d)" src) in$/;"	v
+append	asmrep.ml	/^  method append i_off j_off =$/;"	m
+append	cilrep.ml	/^  method append append_after what_to_append = begin$/;"	m
+append	elfrep.ml	/^  method append i j =$/;"	m
+append	llvmrep.ml	/^  method append i j =$/;"	m
+append	stringrep.ml	/^  method append i j = $/;"	m
+append_after	cilrep.ml	/^            let append_after,what_to_append =$/;"	v
+append_sources	cilrep.ml	/^  method append_sources append_after =$/;"	m
+appends	search.ml	/^  let appends = List.sort (fun (_,_,a) (_,_,b) ->$/;"	v
+appends	search.ml	/^  let appends = ref [] in  $/;"	v
+appends_fit	search.ml	/^  let appends_fit = fitness appends in$/;"	v
+apply	golf.ml	/^let apply (t : tau) (al : tau list) : (tau * int) =$/;"	v
+apply_diff	cdiff.ml	/^let apply_diff (node_info : tree_node IntMap.t) (m : NodeMap.t) (astt1 : node_id) $/;"	v
+apply_diff_to_file	cdiff.ml	/^let apply_diff_to_file f1 node_info patch_ht data_ht =$/;"	v
+apply_edits	edit.ml	/^  let apply_edits (rep :('a,'b) Rep.representation) =$/;"	v
+apply_template	cilrep.ml	/^  method apply_template template_name fillins =$/;"	m
+apply_undefined	golf.ml	/^let apply_undefined (_ : tau list) = (fresh_var true, 0)$/;"	v
+appsrc	search.ml	/^    let appsrc = Stats2.time "append_sources" original#append_sources dest in $/;"	v
+array_ify	pellacini.ml	/^let array_ify e1 = $/;"	v
+as_map	cilrep.ml	/^          let as_map : hole_info StringMap.t = $/;"	v
+asmRep	asmrep.ml	/^class asmRep = object (self : 'self_type)$/;"	c
+asmRep_version	asmrep.ml	/^let asmRep_version = "3"$/;"	v
+asm_code_only	asmrep.ml	/^let asm_code_only = ref false$/;"	v
+assign_undefined	golf.ml	/^let assign_undefined (_ : lvalue) = ()$/;"	v
+assoc_list_mem	golf.ml	/^let rec assoc_list_mem (e : tau) (l : association list) =$/;"	v
+astCilRep	cilrep.ml	/^class astCilRep = object(self)$/;"	c
+ast_info	cilrep.ml	/^type ast_info = $/;"	t
+ast_to_fundec	cdiff.ml	/^let ast_to_fundec (node_info : tree_node IntMap.t) (f:Cil.fundec) (n : tree_node) =$/;"	v
+atom_id	rep.ml	/^type atom_id = int $/;"	t
+atom_id_of_source_line	cilrep.ml	/^  method atom_id_of_source_line source_file source_line =$/;"	m
+atom_id_of_source_line	elfrep.ml	/^  method atom_id_of_source_line source_file source_line =$/;"	m
+atom_id_of_source_line	llvmrep.ml	/^  method atom_id_of_source_line file line = line$/;"	m
+atom_id_of_source_line	stringrep.ml	/^  method atom_id_of_source_line source_file source_line = $/;"	m
+atom_id_to_str	cilrep.ml	/^    let atom_id_to_str atom_id = $/;"	v
+atom_to_byte	elfrep.ml	/^  method atom_to_byte atom = List.map int_of_string atom$/;"	m
+atom_to_str	cilrep.ml	/^  method atom_to_str atom = $/;"	m
+atom_to_str	llvmrep.ml	/^  method atom_to_str _ =$/;"	m
+atoms	search.ml	/^  let atoms = rescale (original#get_faulty_atoms ()) in$/;"	v
+atoms	search.ml	/^let atoms = original#get_faulty_atoms() in$/;"	v
+atoms_length	search.ml	/^let atoms_length = List.length atoms in$/;"	v
+attempt	population.ml	/^          let attempt = ref 1 in$/;"	v
+avail	search.ml	/^    let avail = rescale (original#available_mutations stmt) in$/;"	v
+available_crossover_points	elfrep.ml	/^  method available_crossover_points () =$/;"	m
+available_crossover_points	rep.ml	/^  method available_crossover_points () =$/;"	m
+available_mutations	rep.ml	/^  method available_mutations mut_id = $/;"	m
+average	search.ml	/^let average = ref [] in$/;"	v
+averages	cgrep.ml	/^  val averages = ref (Hashtbl.create 255)$/;"	v	class:cgRep
+avg_const	cgrep.ml	/^                let avg_const = Hashtbl.find !averages (stmt_id,expr_str) in $/;"	v
+avg_exp	cgrep.ml	/^                let avg_exp = Const(avg_const) in $/;"	v
+b	cdiff.ml	/^  let b = wrap_block f.sbody in $/;"	v
+b	cilrep.ml	/^      let b =$/;"	v
+b	pellacini.ml	/^                let b = real_ify b in $/;"	v
+b1set	progeq.ml	/^      let b1set = partition_block files b1 edit_effects in $/;"	v
+b2set	progeq.ml	/^      let b2set = partition_block files b2 edit_effects in $/;"	v
+bGlobal	cilprinter.ml	/^  method bGlobal (out: Buffer.t) (g: global) : unit = $/;"	m
+bInit	cilprinter.ml	/^  method bInit (out: Buffer.t) (ind: int) (i: init) = $/;"	m
+backwards_tabulate	golf.ml	/^let backwards_tabulate (l : label) : unit =$/;"	v
+bad_flag	sourcereader.ml	/^let bad_flag = ref false$/;"	v
+bad_node_id_to_cdiff_node	diffprocessor.ml	/^let bad_node_id_to_cdiff_node = Hashtbl.create 255$/;"	v
+base	cgrep.ml	/^      let base, ext = split_ext !program_to_repair in $/;"	v
+base	cilrep.ml	/^		let base = self#get_base () in$/;"	v
+base	diffprocessor.ml	/^      let base,ext = split_ext fn in$/;"	v
+before	cdiff.ml	/^            let before = Array.sub ynode.children 0 ypos in$/;"	v
+best_edit_rule	search.ml	/^let best_edit_rule = ref "1 * fault_loc_weight ; 1 * max_test_fail_prob ; -1 * num_tests" $/;"	v
+best_k	search.ml	/^    let best_k = (walk first_k rest) in$/;"	v
+best_test_rule	search.ml	/^let best_test_rule = ref "1 * test_fail_prob ; 1 * test_fail_count ; -1 * test_pass_count" $/;"	v
+binRep	gaussian.ml	/^class virtual binRep = object (self : 'self_type)$/;"	c
+binop	pellacini.ml	/^let rec binop iop fop e1 e2 = $/;"	v
+block	cdiff.ml	/^  let block x = $/;"	v
+block	cilrep.ml	/^      let block = $/;"	v
+bottom	golf.ml	/^let bottom () : tau =$/;"	v
+brute_force_1	search.ml	/^let brute_force_1 (original : ('a,'b) Rep.representation) incoming_pop =$/;"	v
+buf	cilprinter.ml	/^  let buf = Buffer.create 10240 in   $/;"	v
+build_action_list	diffprocessor.ml	/^let build_action_list fn ht = begin$/;"	v
+build_node_tuple	diffprocessor.ml	/^let build_node_tuple id =$/;"	v
+bytes_of	elfrep.ml	/^  method bytes_of (filename : string) =$/;"	m
+bytes_per_word	global.ml	/^let bytes_per_word = $/;"	v
+bytes_read	distserver.ml	/^                let bytes_read,split = $/;"	v
+bytes_read	network.ml	/^    let bytes_read = Printf.sprintf "%d" !totbytes in$/;"	v
+c	nhtserver.ml	/^                let c = Hashtbl.find connections write_socket in $/;"	v
+c	pellacini.ml	/^                let c = real_ify c in $/;"	v
+c	rep.ml	/^      let c = self#compile sanity_filename sanity_exename in$/;"	v
+c_one	population.ml	/^    let c_one = original#copy () in$/;"	v
+c_two	population.ml	/^    let c_two = original#copy () in$/;"	v
+cachingRep_version	rep.ml	/^let cachingRep_version = "1"$/;"	v
+cachingRepresentation	rep.ml	/^class virtual ['gene,'code] cachingRepresentation = object (self : ('gene,'code) #representation) $/;"	c
+calculate_fitness	search.ml	/^let calculate_fitness generation orig variant =$/;"	v
+can_insert	cilrep.ml	/^  method can_insert ?(before=false) insert_after_sid src_sid =  $/;"	m
+cdiff_node	diffprocessor.ml	/^type cdiff_node = {$/;"	t
+cf_after	search.ml	/^      let cf_after = !compile_failures in $/;"	v
+cf_before	search.ml	/^      let cf_before = !compile_failures in $/;"	v
+cgRep	cgrep.ml	/^class cgRep = object (self : 'self_type)$/;"	c
+cgRep_version	cgrep.ml	/^let cgRep_version = "1" $/;"	v
+changed_source_code	sourcereader.ml	/^let changed_source_code = ref [] (* Repaired code *)$/;"	v
+check_alias	golf.ml	/^  let rec check_alias sets labels =$/;"	v
+child	cdiff.ml	/^          let child = node_of_nid node_info child in$/;"	v
+child_id	diffprocessor.ml	/^                      let child_id = ref 0 in$/;"	v
+children	cdiff.ml	/^      let children = List.map stmt_to_node block.bstmts in$/;"	v
+children	cdiff.ml	/^  mutable children : int array ;$/;"	r	type:tree_node
+children	multiopt.ml	/^  let children = ref [] in $/;"	v
+choose_one_weighted	global.ml	/^let choose_one_weighted (lst : ('a * float) list) : 'a * float =$/;"	v
+cilRep	cilrep.ml	/^class virtual ['gene] cilRep  = object (self : 'self_type)$/;"	c
+cilRep_atom	cilrep.ml	/^type cilRep_atom =$/;"	t
+cilRep_version	cilrep.ml	/^let cilRep_version = "13" $/;"	v
+cil_file	cilrep.ml	/^            let cil_file = $/;"	v
+cil_parse	cilrep.ml	/^let cil_parse file_name = $/;"	v
+cil_txt	diffprocessor.ml	/^  cil_txt : string list ;$/;"	r	type:cdiff_node
+cilfile	cilrep.ml	/^        let cilfile = $/;"	v
+cleanup	cilrep.ml	/^    let cleanup () =$/;"	v
+cleanup	rep.ml	/^  method cleanup () =$/;"	m	method:output_source
+cleanup_tree	cdiff.ml	/^let rec cleanup_tree node_info t =$/;"	v
+clear	stats2.ml	/^let clear () = $/;"	v
+client_num	network.ml	/^        let client_num = my_int_of_string (List.hd strlist) in$/;"	v
+cmd	llvmrep.ml	/^    let cmd = "cat "^tmp_from^"|"^llvm_mutate^" -I -o \/dev\/null 2>"^tmp_to in$/;"	v
+cmd	rep.ml	/^          let cmd = "rm -rf .\/"^dirname in$/;"	v
+code	cilrep.ml	/^          let code = hfind template_code_ht template_name in $/;"	v
+code_bank	cilrep.ml	/^    let code_bank = $/;"	v
+code_bank	cilrep.ml	/^    { code_bank : Cil.file StringMap.t ;$/;"	r	type:ast_info
+collectEffects	progeq.ml	/^class collectEffects  (loop_count : int ref) $/;"	c
+collectFundecs	progeq.ml	/^let collectFundecs (fname : string) file sofar =$/;"	v
+collectStatements	progeq.ml	/^class collectStatements (out : (Cil.stmt list) ref) = object$/;"	c
+collectTypelabels	cilrep.ml	/^class collectTypelabels result = object$/;"	c
+collect_ptsets	golf.ml	/^let collect_ptsets (l : label) : constantset = (* todo -- cache aliases *)$/;"	v
+collect_variants	network.ml	/^  let rec collect_variants (all_edits) (variants) (sofar) : ('a,'b) GPPopulation.t =$/;"	v
+comma_regexp	global.ml	/^let comma_regexp = regexp_string ","$/;"	v
+comp	distserver.ml	/^                let comp,split = (my_int_of_string (List.hd split)),List.tl split in$/;"	v
+compare	cdiff.ml	/^  let compare (a,b) (c,d) = $/;"	v	Module:OrderedNodeNode
+compare	cdiff.ml	/^  let compare x y = compare x.nid y.nid$/;"	v	Module:OrderedNode
+compile	rep.ml	/^  method compile source_name exe_name = $/;"	m
+compiler_command	rep.ml	/^let compiler_command = ref ""$/;"	v
+compiler_name	rep.ml	/^let compiler_name = ref "gcc" $/;"	v
+compiler_options	rep.ml	/^let compiler_options = ref "" $/;"	v
+compute_average_values	pellacini.ml	/^let compute_average_values ?(trials=1000) ast meth = $/;"	v
+compute_localization	cgrep.ml	/^  method compute_localization () = $/;"	m
+compute_localization	rep.ml	/^  method compute_localization () =$/;"	m
+compute_may_aliases	ptranal.ml	/^let compute_may_aliases (b : bool) : unit =$/;"	v
+connect_to_sock	distglobal.ml	/^let rec connect_to_sock sock addr =$/;"	v
+connection	nhtserver.ml	/^type connection = {$/;"	t
+connection_state	nhtserver.ml	/^type connection_state = $/;"	t
+const_is_zero	pellacini.ml	/^let const_is_zero c = match c with$/;"	v
+constraints	template.ml	/^type constraints =  Fault_path | Fix_path | Ref of string | InScope of string $/;"	t
+construct_rep	cdiffmain.ml	/^  method construct_rep patch script =$/;"	m
+construct_rep	cilrep.ml	/^  method construct_rep patch script =$/;"	m
+continue	search.ml	/^let continue = ref false$/;"	v
+convert_exp_opt	cdiff.ml	/^  let convert_exp_opt exp = $/;"	v
+convert_exps	cdiff.ml	/^  let convert_exps exps = $/;"	v
+convert_il	cdiff.ml	/^  let convert_il il = $/;"	v
+convert_label	cdiff.ml	/^  let convert_label l = match l with$/;"	v
+copy	asmrep.ml	/^  method copy () : 'self_type = $/;"	m	class:asmRep
+copy	cdiffmain.ml	/^  method copy () =  $/;"	m
+copy	cilrep.ml	/^  method copy () : 'self_type =$/;"	m	class:cilRep
+copy	global.ml	/^let copy (x : 'a) = $/;"	v
+copy	population.ml	/^                let copy = original#copy() in$/;"	v
+copy_and_rename_dir	multiopt.ml	/^      let copy_and_rename_dir rename_fun src dst =$/;"	v
+copy_closures	global.ml	/^let copy_closures (x : 'a) = $/;"	v
+count	diffprocessor.ml	/^                      let count = ref 0 in$/;"	v
+count	pellacini.ml	/^            let count = ref 0 in $/;"	v
+count	pellacini.ml	/^          let count = ref 0 in $/;"	v
+count_lines_in_file	global.ml	/^let count_lines_in_file (file : string) : float =$/;"	v
+counter	cdiffmain.ml	/^let counter = ref 1 $/;"	v
+counter	diffprocessor.ml	/^                      let counter = ref 1 in$/;"	v
+cov_visit	cilrep.ml	/^    let cov_visit = if !is_valgrind then $/;"	v
+coverage_exename	rep.ml	/^              let coverage_exename = Filename.concat subdir coverage_exename in $/;"	v
+coverage_exename	rep.ml	/^let coverage_exename = "coverage" $/;"	v
+coverage_info	rep.ml	/^let coverage_info = ref ""$/;"	v
+coverage_outname	rep.ml	/^              let coverage_outname = Filename.concat subdir "coverage.path" in$/;"	v
+coverage_per_test	rep.ml	/^let coverage_per_test = ref false $/;"	v
+coverage_per_test_warning_printed	rep.ml	/^let coverage_per_test_warning_printed = ref false $/;"	v
+coverage_sourcename	rep.ml	/^              let coverage_sourcename = Filename.concat subdir $/;"	v
+coverage_sourcename	rep.ml	/^let coverage_sourcename = "coverage" $/;"	v
+create_super_mutant	search.ml	/^  let create_super_mutant remaining = $/;"	v
+crossover	population.ml	/^  let crossover population original =$/;"	v
+crossover	population.ml	/^let crossover = ref "one"$/;"	v
+crossover_one_point	population.ml	/^  let crossover_one_point ?(test = 0)$/;"	v
+crossover_patch_old_behavior	population.ml	/^  let crossover_patch_old_behavior ?(test = 0)$/;"	v
+crossover_patch_subset	population.ml	/^  let crossover_patch_subset$/;"	v
+crossp	population.ml	/^let crossp = ref 0.5$/;"	v
+crowded_lessthan	multiopt.ml	/^    let crowded_lessthan p q = $/;"	v
+crowded_lessthan	multiopt.ml	/^  let crowded_lessthan, f, distance = ngsa_ii_sort many in $/;"	v
+crowded_lessthan	multiopt.ml	/^  let crowded_lessthan, f, distance = ngsa_ii_sort pop in $/;"	v
+cstmt	cilrep.ml	/^  let cstmt stmt_str args = $/;"	v
+current	asmrep.ml	/^            let current = ht_find results line_num (fun _ -> 0.0) in$/;"	v
+currentFormals	cilprinter.ml	/^  val mutable currentFormals : varinfo list = []$/;"	v	class:toStringCilPrinterClass
+current_generation	fitness.ml	/^let current_generation = ref (-1) $/;"	v
+currently_saving	nhtserver.ml	/^let currently_saving = ref false $/;"	v
+d	pellacini.ml	/^                let d = real_ify d in$/;"	v
+d_absloc	golf.ml	/^let d_absloc () (p : absloc) =$/;"	v
+d_absloc	ptranal.ml	/^let d_absloc: unit -> absloc -> Pretty.doc = A.d_absloc$/;"	v
+debug	edit.ml	/^let debug fmt = $/;"	v
+debug	global.ml	/^let debug ?force_gui:(force_gui=false) fmt = $/;"	v
+debug	nhtserver.ml	/^let debug fmt = $/;"	v
+debug_action_list	diffprocessor.ml	/^let debug_action_list () = begin$/;"	v
+debug_info	cilrep.ml	/^  method debug_info () =$/;"	m
+debug_info	elfrep.ml	/^  method debug_info () =$/;"	m
+debug_info	llvmrep.ml	/^  method debug_info () = debug "llvmRep: lines = 1--%d\\n" (self#max_atom ())$/;"	m
+debug_info	rep.ml	/^  method debug_info () =$/;"	m
+debug_info	stringrep.ml	/^  method debug_info () = debug "stringRep: lines = 1--%d\\n" (self#max_atom ())$/;"	m
+debug_out	global.ml	/^let debug_out = ref stdout $/;"	v
+debug_size_in_bytes	global.ml	/^let debug_size_in_bytes (x : 'a) : int = $/;"	v
+debug_size_in_mb	global.ml	/^let debug_size_in_mb (x : 'a) : float = $/;"	v
+decls	cilrep.ml	/^            let decls = g :: !decls in$/;"	v
+decls	cilrep.ml	/^            let decls = ref [] in$/;"	v
+del_app_count	search.ml	/^let del_app_count = atoms_length * app_count in$/;"	v
+del_del_count	search.ml	/^let del_del_count = ( atoms_length * atoms_length)\/2 in$/;"	v
+del_prob	search.ml	/^let del_prob = ref 0.33333$/;"	v
+delete	asmrep.ml	/^  method delete i_off =$/;"	m
+delete	cdiff.ml	/^let delete node_info node =$/;"	v
+delete	cilrep.ml	/^  method delete stmt_id = begin$/;"	m
+delete	elfrep.ml	/^  method delete i =$/;"	m
+delete	llvmrep.ml	/^  method delete i =$/;"	m
+delete	stringrep.ml	/^  method delete i =$/;"	m
+deleted_node	cdiff.ml	/^let deleted_node = {$/;"	v
+deletes	search.ml	/^  let deletes = !deletes in$/;"	v
+deletes	search.ml	/^  let deletes =$/;"	v
+deletes_fit	search.ml	/^  let deletes_fit = fitness deletes in$/;"	v
+delta	search.ml	/^  let delta = time3 -. time2 in $/;"	v
+delta	stats2.ml	/^  let delta = now -. (!load_started) in $/;"	v
+dependency_exists	progeq.ml	/^let dependency_exists es1 es2 = $/;"	v
+deprecated_and_not_ok	global.ml	/^let deprecated_and_not_ok = [$/;"	v
+deprecated_and_simulable	global.ml	/^let deprecated_and_simulable = [$/;"	v
+deprecated_but_ok	global.ml	/^let deprecated_but_ok = [$/;"	v
+deprecated_options	global.ml	/^let deprecated_options = [$/;"	v
+deps	cilrep.ml	/^  let deps =$/;"	v
+deref	golf.ml	/^let rec deref (t : tau) : lvalue =$/;"	v
+describe_machine	main.ml	/^let describe_machine = ref false $/;"	v
+deserialize	asmrep.ml	/^  method deserialize ?in_channel ?global_info (filename : string) =$/;"	m
+deserialize	cgrep.ml	/^  method deserialize ?in_channel ?global_info (filename : string) = $/;"	m
+deserialize	cilrep.ml	/^  method deserialize ?in_channel ?global_info (filename : string) = $/;"	m	class:astCilRep
+deserialize	cilrep.ml	/^  method deserialize ?in_channel ?global_info (filename : string) = begin$/;"	m
+deserialize	elfrep.ml	/^  method deserialize ?in_channel ?global_info (filename : string) =$/;"	m
+deserialize	rep.ml	/^  method deserialize ?in_channel ?global_info (filename : string) = begin$/;"	m
+dev_null	rep.ml	/^let dev_null = Unix.openfile "\/dev\/null" [Unix.O_RDWR] 0o640 $/;"	v
+digest_list	rep.ml	/^      let digest_list, result = $/;"	v
+disasm	elfrep.ml	/^  method disasm (filename : string ) = begin$/;"	m
+distance	multiopt.ml	/^    let distance = hcreate 255 in $/;"	v
+distributed_client	network.ml	/^let distributed_client rep incoming_pop = $/;"	v
+diversity_selection	network.ml	/^let diversity_selection = ref 0$/;"	v
+do_cross	population.ml	/^  let do_cross ?(test = 0)$/;"	v
+do_minimization	minimization.ml	/^let do_minimization orig rep rep_name =$/;"	v
+do_work_2	search.ml	/^  let do_work_2 edit_list = $/;"	v
+doc	cdiff.ml	/^  let doc = dn_stmt () s' in $/;"	v
+docast	pellacini.ml	/^let docast tau c = match tau, c with$/;"	v
+does_match	global.ml	/^let does_match = any_match $/;"	v
+dolines	global.ml	/^  let rec dolines () =$/;"	v
+dominates	multiopt.ml	/^let dominates (p: ('a, 'b) Rep.representation) $/;"	v
+dummyBlock	cdiff.ml	/^let dummyBlock = { battrs = [] ; bstmts = [] ; }$/;"	v
+dummySet	cilrep.ml	/^  let dummySet = ref (IntSet.empty) in$/;"	v
+edit	search.ml	/^      let (edit, thunk, weight) = Stats2.time "find_best_edit" $/;"	v
+edit_action	cdiff.ml	/^type edit_action = $/;"	t
+edit_action_to_str	cdiff.ml	/^let edit_action_to_str node_map ea = $/;"	v
+edit_list	search.ml	/^let edit_list = ref [] in$/;"	v
+edits	edit.ml	/^let edits = ref ""$/;"	v
+edits_in_supers	search.ml	/^  let edits_in_supers = ref [] in $/;"	v
+edits_no	search.ml	/^let edits_no = ref 1$/;"	v
+effect	progeq.ml	/^type effect = $/;"	t
+effect_to_str	progeq.ml	/^let effect_to_str e = match e with$/;"	v
+effects_of_stmtkind	progeq.ml	/^let effects_of_stmtkind files skind = $/;"	v
+ele_len	search.ml	/^let ele_len = List.length !elements in$/;"	v
+elements	search.ml	/^let elements = ref [] in$/;"	v
+elf	elfrep.ml	/^  val elf = ref "" (* String to hold binary elf lisp object *)$/;"	v
+elfRep	elfrep.ml	/^class elfRep = object (self : 'self_type)$/;"	c
+elfRep_version	elfrep.ml	/^let elfRep_version = "1"$/;"	v
+elf_risc	elfrep.ml	/^let elf_risc = ref false$/;"	v
+empty	template.ml	/^  empty : unit -> 'a ;$/;"	r	type:solver
+emptyVisitor	cilrep.ml	/^class emptyVisitor = object$/;"	c
+empty_info	cilrep.ml	/^let empty_info () =$/;"	v
+enable_bracket_inclusion	diffprocessor.ml	/^let enable_bracket_inclusion = false$/;"	v
+enable_nearest_good_node_search	diffprocessor.ml	/^let enable_nearest_good_node_search = false$/;"	v
+enable_smart_bracket_inclusion	diffprocessor.ml	/^let enable_smart_bracket_inclusion = false$/;"	v
+env	pellacini.ml	/^let env = Hashtbl.create 255 $/;"	v
+epoints_to	golf.ml	/^let epoints_to (t : tau) : Cil.varinfo list =$/;"	v
+equal_tau	golf.ml	/^let equal_tau (t : tau) (t' : tau) =$/;"	v
+errors	pellacini.ml	/^            let errors = List.map (fun var ->$/;"	v
+errors	pellacini.ml	/^            let errors = List.sort (fun (e,_,_) (e',_,_) -> compare e e') errors in $/;"	v
+eval_error	pellacini.ml	/^let eval_error source_name = $/;"	v
+eval_instr	pellacini.ml	/^and eval_instr ?(raise_retval=false) i = $/;"	v
+eval_stmt	pellacini.ml	/^and eval_stmt s = $/;"	v
+evals_done	distserver.ml	/^                let evals_done,split = $/;"	v
+evaluate	multiopt.ml	/^let evaluate (rep : ('a,'b) representation) = $/;"	v
+event_loop	nhtserver.ml	/^let event_loop ss_connection = begin$/;"	v
+everyVisitor	cdiffmain.ml	/^class everyVisitor = object$/;"	c
+everyVisitor	cilrep.ml	/^class everyVisitor = object$/;"	c
+exchange_variants	network.ml	/^      let exchange_variants str =$/;"	v
+excluded_edits	search.ml	/^let excluded_edits = ref []$/;"	v
+excluded_edits_str	search.ml	/^let excluded_edits_str = ref ""$/;"	v
+exp_diff_level	cdiff.ml	/^let exp_diff_level = ref false$/;"	v
+exp_hole	cilrep.ml	/^    let exp_hole (hole : hole_info) (assignment : filled StringMap.t) =$/;"	v
+exp_to_node	cdiff.ml	/^  let rec exp_to_node e = $/;"	v
+expr_str	cgrep.ml	/^            let expr_str = Pretty.sprint ~width:80 (d_exp () exp) in $/;"	v
+expr_str	pellacini.ml	/^            let expr_str = Pretty.sprint ~width:80 (d_exp () expr) in $/;"	v
+exps	cdiff.ml	/^      let exps = Array.of_list (exp_to_node e) in$/;"	v
+extension	global.ml	/^let extension = ref "" $/;"	v
+extract_ptlabel	golf.ml	/^let extract_ptlabel (lv : lvalue) : label option =$/;"	v
+f1	cilrep.ml	/^		let f1,skind1 = self#get_stmt stmt_id1 in $/;"	v
+f2	cilrep.ml	/^		let f2,skind2 = self#get_stmt stmt_id2 in $/;"	v
+f_1	multiopt.ml	/^      let f_1 = Hashtbl.find_all f 1 in$/;"	v
+f_1	multiopt.ml	/^      let f_1 = List.sort (fun p q ->$/;"	v
+f_i	multiopt.ml	/^        let f_i = Hashtbl.find_all f !i in $/;"	v
+f_max_m	multiopt.ml	/^                let f_max_m = Hashtbl.find f_max m in $/;"	v
+f_min_m	multiopt.ml	/^                let f_min_m = Hashtbl.find f_min m in $/;"	v
+failed_repairs_at_this_fault_atom	search.ml	/^  mutable failed_repairs_at_this_fault_atom : float AtomMap.t ;$/;"	r	type:adaptive_model_1
+failed_repairs_at_this_fix_atom	search.ml	/^  mutable failed_repairs_at_this_fix_atom : float AtomMap.t ;$/;"	r	type:adaptive_model_1
+failed_to_compile	search.ml	/^      let failed_to_compile = cf_after <> cf_before in $/;"	v
+fault_atom	search.ml	/^        let fault_atom = fault_atom_of edit in$/;"	v
+fault_file	rep.ml	/^let fault_file = ref ""$/;"	v
+fault_path	rep.ml	/^    let fault_path = Filename.concat (Unix.getcwd()) !fault_path in$/;"	v
+fault_path	rep.ml	/^let fault_path = ref "coverage.path.neg"$/;"	v
+fault_scheme	rep.ml	/^let fault_scheme = ref "path"$/;"	v
+fault_scheme'	rep.ml	/^          let fault_scheme' = Marshal.from_channel fin in$/;"	v
+faultlocRep_version	rep.ml	/^let faultlocRep_version = "6" $/;"	v
+faultlocRepresentation	rep.ml	/^class virtual ['gene,'code] faultlocRepresentation = object (self) $/;"	c
+fd	nhtserver.ml	/^                      let fd = openfile !global_ht_filename [O_WRONLY;O_NONBLOCK;O_CREAT] $/;"	v
+feature	ptranal.ml	/^let feature : featureDescr = {$/;"	v
+file	cilrep.ml	/^		let file = self#get_file stmt_id1 in $/;"	v
+file	cilrep.ml	/^    let file = cil_parse template_file in$/;"	v
+file	cilrep.ml	/^    let file = self#internal_parse full_filename in $/;"	v
+file_to_string	global.ml	/^let file_to_string (file : string) : string = $/;"	v
+filename	diffprocessor.ml	/^  filename : string ;$/;"	r	type:cdiff_node
+files	cilrep.ml	/^      let files = !global_ast_info.code_bank in $/;"	v
+filetype	edit.ml	/^  let filetype = $/;"	v
+filetype	main.ml	/^  let filetype = $/;"	v
+fill_va_table	cilrep.ml	/^let fill_va_table = ref $/;"	v
+filter	template.ml	/^  filter : ('b -> bool) -> 'a -> 'a ;$/;"	r	type:solver
+fin	global.ml	/^        let fin = open_in file in $/;"	v
+fin	rep.ml	/^              let fin = Pervasives.open_in coverage_outname in $/;"	v
+final_action	diffprocessor.ml	/^type final_action =$/;"	t
+final_action_list	diffprocessor.ml	/^let final_action_list = ref []$/;"	v
+final_average	search.ml	/^		let final_average = !sum \/. 10.0 in$/;"	v
+finaldir	multiopt.ml	/^        let finaldir = Rep.add_subdir (Some "pareto") in$/;"	v
+findAtomVisitor	cilrep.ml	/^class findAtomVisitor (source_file : string) (source_line : int) = object$/;"	c
+findBreakContinueVisitor	cilrep.ml	/^class findBreakContinueVisitor = object$/;"	c
+findStmtVisitor	cilrep.ml	/^class findStmtVisitor desired_sid function_name = object$/;"	c
+find_best	search.ml	/^  let find_best get_attr rules remaining = $/;"	v
+find_best_edit	search.ml	/^  let find_best_edit = find_best get_edit_attr best_edit_rules in $/;"	v
+find_best_test	search.ml	/^  let find_best_test = find_best get_test_attr best_test_rules in $/;"	v
+find_k_best_unsupered_edits	search.ml	/^  let find_k_best_unsupered_edits k remaining = $/;"	v
+find_node_that_maps_to	cdiff.ml	/^let find_node_that_maps_to (m : NodeMap.t) (y : tree_node) =$/;"	v
+find_str	cdiff.ml	/^let find_str node_map n = $/;"	v
+finished	multiopt.ml	/^      let finished = ref false in $/;"	v
+finished	progeq.ml	/^    let finished = ref false in$/;"	v
+finished_constraints	golf.ml	/^let finished_constraints () = ()$/;"	v
+first_bracket_line	diffprocessor.ml	/^                      let first_bracket_line = ref 0 in$/;"	v
+first_file	cilrep.ml	/^        let first_file = ref true in $/;"	v
+first_half	population.ml	/^    let first_half,second_half = split_nth wp point in$/;"	v
+first_hole	cilrep.ml	/^          let first_hole = StringMap.find  "__hole1__" template.hole_constraints in $/;"	v
+first_k	search.ml	/^    let first_k = List.sort my_compare first_k in $/;"	v
+first_k	search.ml	/^    let first_k, rest = split_nth remaining k in $/;"	v
+first_line	diffprocessor.ml	/^  first_line : int ;$/;"	r	type:cdiff_node
+first_nth	global.ml	/^let rec first_nth lst n =  $/;"	v
+fitness	rep.ml	/^  method fitness ?(key="tests") () : float option = $/;"	m
+fitness	search.ml	/^  let fitness variants =$/;"	v
+fitness_in_parallel	rep.ml	/^let fitness_in_parallel = ref 1 $/;"	v
+fixPutVisitor	cilrep.ml	/^class fixPutVisitor = object$/;"	c
+fix_atom	search.ml	/^        let fix_atom = fix_atom_of edit in $/;"	v
+fix_file	rep.ml	/^let fix_file = ref ""$/;"	v
+fix_oracle_file	rep.ml	/^let fix_oracle_file = ref ""$/;"	v
+fix_path	rep.ml	/^let fix_path = ref "coverage.path.pos"$/;"	v
+fix_scheme	rep.ml	/^let fix_scheme = ref "default"$/;"	v
+fix_scheme'	rep.ml	/^          let fix_scheme' = Marshal.from_channel fin in$/;"	v
+fixes_seen	cilrep.ml	/^    let fixes_seen = Hashtbl.create 255 in $/;"	v
+flat_bytes	elfrep.ml	/^  method flat_bytes () = Array.of_list(List.flatten(Array.to_list !bytes))$/;"	m
+flatten_path	rep.ml	/^let flatten_path = ref ""$/;"	v
+float_array_to_str	global.ml	/^let float_array_to_str fa =$/;"	v
+floatarray_size_of_ti	pellacini.ml	/^let floatarray_size_of_ti name = $/;"	v
+fname	multiopt.ml	/^          let fname = Filename.concat finaldir (prefix ^ ".fitness") in$/;"	v
+fname'	cilrep.ml	/^                  let fname' = Filename.concat source_dir fname in $/;"	v
+fnres	ptranal.ml	/^          let fnres, site =$/;"	v
+found_atom	cilrep.ml	/^let found_atom = ref 0 $/;"	v
+found_dist	cilrep.ml	/^let found_dist = ref max_int $/;"	v
+found_flag	diffprocessor.ml	/^                      let found_flag = ref false in$/;"	v
+found_flag	diffprocessor.ml	/^      let found_flag = ref false in$/;"	v
+found_id	diffprocessor.ml	/^      let found_id = ref parent_node.nid in$/;"	v
+found_repair	distserver.ml	/^                let found_repair = $/;"	v
+fout	minimization.ml	/^    let fout = open_out  ("Minimization_Files\/full."^output_name) in$/;"	v
+fout	multiopt.ml	/^            let fout = open_out fname in $/;"	v
+fout	rep.ml	/^          let fout = open_out !coverage_info in $/;"	v
+fout	rep.ml	/^        let fout = open_out "fix_path.weights" in$/;"	v
+fout	rep.ml	/^      let fout = open_out out_path in$/;"	v
+fresh_recvar_name	golf.ml	/^let fresh_recvar_name (t : tau) : string =$/;"	v
+from_neighbor	network.ml	/^                let from_neighbor,bytes = exchange_variants msgpop in$/;"	v
+from_source	asmrep.ml	/^  method from_source (filename : string) =$/;"	m	class:asmRep
+from_source	cilrep.ml	/^  method from_source (filename : string) = begin$/;"	m	class:astCilRep
+from_source	elfrep.ml	/^  method from_source (filename : string) =$/;"	m
+front_idx	multiopt.ml	/^      let front_idx = ref 1 in $/;"	v
+fst3	global.ml	/^let fst3 (a,_,_) = a$/;"	v
+fulfills_constraints	cilrep.ml	/^          let fulfills_constraints = internal_stmt_constraints (IntSet.singleton location_id) (ConstraintSet.elements first_hole.constraints) in$/;"	v
+fullread	distglobal.ml	/^let fullread sock =$/;"	v
+fullsend	distglobal.ml	/^let fullsend sock str =$/;"	v
+fundec	pellacini.ml	/^            | _ -> let fundec = get_fun fname in  $/;"	v
+fundec_list	progeq.ml	/^    let fundec_list = uniq fundec_list in $/;"	v
+fundec_to_ast	cdiff.ml	/^let fundec_to_ast (node_info : tree_node IntMap.t) (f:Cil.fundec) =$/;"	v
+funs	pellacini.ml	/^let funs = Hashtbl.create 255 $/;"	v
+g1a	population.ml	/^    let g1a,g1b = split_nth (variant1#get_genome()) point1 in$/;"	v
+g2a	population.ml	/^    let g2a,g2b = split_nth (variant2#get_genome()) point2 in$/;"	v
+gen_per_exchange	network.ml	/^let gen_per_exchange = ref 1$/;"	v
+generate_sourcereader_script	diffprocessor.ml	/^let generate_sourcereader_script filename = begin$/;"	v
+generation	search.ml	/^type info = { generation : int ; test_case_evals : int }$/;"	r	type:info
+generation_sample	fitness.ml	/^let generation_sample = ref []$/;"	v
+generations	search.ml	/^let generations = ref 10$/;"	v
+genetic_algorithm	search.ml	/^let genetic_algorithm (original : ('a,'b) Rep.representation) incoming_pop =$/;"	v
+genome_length	cilrep.ml	/^  method genome_length () = llen !history$/;"	m	class:patchCilRep
+gens	distserver.ml	/^                let gens = my_int_of_string (List.hd split) in$/;"	v
+gens	network.ml	/^    let gens = match !Search.success_info with$/;"	v
+gens_run	search.ml	/^let gens_run = ref 0$/;"	v
+get	cilrep.ml	/^  method get stmt_id = $/;"	m
+get	stringrep.ml	/^     method get idx = !genome.(pred idx)$/;"	m
+getExpVisitor	cilrep.ml	/^class getExpVisitor output first = object$/;"	c
+getVisitor	cilrep.ml	/^class getVisitor $/;"	c
+get_args	golf.ml	/^let get_args (t : tau) : tau list =$/;"	v
+get_base	cdiffmain.ml	/^  method get_base () = $/;"	m
+get_base	cilrep.ml	/^  method get_base () = !global_ast_info.code_bank$/;"	m	class:patchCilRep
+get_base	cilrep.ml	/^  method get_base () = $/;"	m	class:astCilRep
+get_bounds	golf.ml	/^let get_bounds (p :polarity ) (upper : bool) (l : label) : lblinfo boundset =$/;"	v
+get_code_bank	cilrep.ml	/^  method get_code_bank () = $/;"	m
+get_compiler_command	elfrep.ml	/^  method get_compiler_command () = $/;"	m
+get_dependency_tag	cilrep.ml	/^let get_dependency_tag g =$/;"	v
+get_exchange	network.ml	/^let get_exchange (orig : ('a,'b) Rep.representation) (lst : ('a,'b) GPPopulation.t) $/;"	v
+get_faulty_atoms	rep.ml	/^  method get_faulty_atoms () = !fault_localization$/;"	m
+get_file	cilrep.ml	/^  method get_file (stmt_id : atom_id) : Cil.file =$/;"	m
+get_finfo	golf.ml	/^let get_finfo (t : tau) : finfo =$/;"	v
+get_fix_source_atoms	rep.ml	/^  method get_fix_source_atoms () = !fix_localization$/;"	m
+get_fun	pellacini.ml	/^let get_fun fname = $/;"	v
+get_genome	cilrep.ml	/^  method get_genome () = !history$/;"	m	class:patchCilRep
+get_genome	cilrep.ml	/^  method get_genome () = $/;"	m	class:astCilRep
+get_genome	elfrep.ml	/^  method get_genome () : string list list =$/;"	m
+get_global	golf.ml	/^let get_global (t : tau) : bool =$/;"	v
+get_ht_of_name	nhtserver.ml	/^let get_ht_of_name name = $/;"	v
+get_label_stamp	golf.ml	/^let get_label_stamp (l : label) : int =$/;"	v
+get_last_bracket_line	diffprocessor.ml	/^let get_last_bracket_line filename starting_line = begin$/;"	v
+get_lines	global.ml	/^let get_lines (filename : string) : string list = $/;"	v
+get_next_count	cdiffmain.ml	/^let get_next_count () = $/;"	v
+get_opt	global.ml	/^let get_opt opt = $/;"	v
+get_oracle_code	cilrep.ml	/^  method get_oracle_code () = !global_ast_info.oracle_code$/;"	m
+get_rest_of_sample	fitness.ml	/^let get_rest_of_sample sample = $/;"	v
+get_standard_headers	cilrep.ml	/^let get_standard_headers () = $/;"	v
+get_stmt	cilrep.ml	/^  method get_stmt stmt_id =$/;"	m
+get_stmt_map	cilrep.ml	/^  method get_stmt_map () = $/;"	m
+get_subatoms	cilrep.ml	/^  method get_subatoms stmt_id =$/;"	m
+get_template	cilrep.ml	/^  method get_template tname = hfind registered_c_templates tname$/;"	m
+global_ast_info	cilrep.ml	/^let global_ast_info = ref (empty_info()) $/;"	v
+global_decls	cilrep.ml	/^  let global_decls = lfoldl (fun decls x ->$/;"	v
+global_filename	sourcereader.ml	/^let global_filename = ref ""$/;"	v
+global_filetypes	rep.ml	/^let global_filetypes = ref ([] : (string * (unit -> unit)) list)$/;"	v
+global_ht_filename	nhtserver.ml	/^let global_ht_filename = ref "repair.nht.cache" $/;"	v
+global_line_adjustment	sourcereader.ml	/^let global_line_adjustment = ref 0$/;"	v
+global_lvalue	golf.ml	/^let global_lvalue lv = get_global lv.contents$/;"	v
+global_tau	golf.ml	/^let global_tau = get_global$/;"	v
+globals	cdiff.ml	/^  let globals,_ = $/;"	v
+globals_here	cilrep.ml	/^  let globals_here = IntMap.find context_sid globalshave in $/;"	v
+globalseen	cilrep.ml	/^    let globalseen = ref IntSet.empty in $/;"	v
+globalset	cilrep.ml	/^    let globalset = ref !global_ast_info.globalsset in $/;"	v
+globalshave	cilrep.ml	/^      globalshave: IntSet.t IntMap.t ; $/;"	r	type:ast_info
+globalshave	cilrep.ml	/^    let globalshave = ref !global_ast_info.globalshave in $/;"	v
+globalsset	cilrep.ml	/^      globalsset : IntSet.t ;$/;"	r	type:ast_info
+gotten_code	cilrep.ml	/^let gotten_code = ref (mkEmptyStmt ()).skind$/;"	v
+gui	global.ml	/^let gui = ref false$/;"	v
+gval	rep.ml	/^      let gval = match global_info with Some(n) -> n | _ -> false in$/;"	v
+h11	population.ml	/^    let h11, h12 = $/;"	v
+h21	population.ml	/^    let h21, h22 = $/;"	v
+hadd	global.ml	/^let hadd = Hashtbl.add $/;"	v
+hasConditionalEdit	cilrep.ml	/^class hasConditionalEdit edits outvar = object$/;"	c
+hashtbl_to_list	stats2.ml	/^let hashtbl_to_list ht =$/;"	v
+have_sofar	multiopt.ml	/^          let have_sofar = List.length !next_generation in $/;"	v
+hclear	global.ml	/^let hclear = Hashtbl.clear$/;"	v
+hcreate	global.ml	/^let hcreate = Hashtbl.create$/;"	v
+here_effects	progeq.ml	/^      let here_effects = ref EffectSet.empty in $/;"	v
+hfind	global.ml	/^let hfind = Hashtbl.find$/;"	v
+hfold	global.ml	/^let hfold = Hashtbl.fold$/;"	v
+hincr	global.ml	/^let hincr ht key = $/;"	v
+histlist	network.ml	/^  let histlist = $/;"	v
+hiter	global.ml	/^let hiter = Hashtbl.iter$/;"	v
+hlen	global.ml	/^let hlen = Hashtbl.length$/;"	v
+hmem	global.ml	/^let hmem = Hashtbl.mem$/;"	v
+hole_id	cilrep.ml	/^          let hole_id = first_hole.hole_id in$/;"	v
+hole_type	template.ml	/^type hole_type = Stmt_hole | Exp_hole | Lval_hole$/;"	t
+holes	stats2.ml	/^  mutable holes : float ; $/;"	r	type:t
+hose_globals	ptranal.ml	/^  let hose_globals () : unit =$/;"	v
+hostname	network.ml	/^let hostname = ref "127.0.0.1"$/;"	v
+hrem	global.ml	/^let hrem = Hashtbl.remove$/;"	v
+hrep	global.ml	/^let hrep = Hashtbl.replace$/;"	v
+ht_find	global.ml	/^let ht_find ht key new_val = $/;"	v
+i	multiopt.ml	/^      let i = ref 0 in $/;"	v
+i	multiopt.ml	/^    let i = ref 1 in $/;"	v
+i_array	multiopt.ml	/^            let i_array = Array.of_list i_set in $/;"	v
+i_max	multiopt.ml	/^    let i_max = !i in $/;"	v
+i_set	multiopt.ml	/^            let i_set = List.sort (fun a b -> $/;"	v
+i_size	multiopt.ml	/^            let i_size = Array.length i_array in$/;"	v
+id	diffprocessor.ml	/^  id : int ;$/;"	r	type:cdiff_node
+idx	pellacini.ml	/^        let idx = ee e in $/;"	v
+ifstmt	cilrep.ml	/^        let ifstmt = cstmt stmt_str $/;"	v
+ignore_dead_code	cilrep.ml	/^let ignore_dead_code = ref false $/;"	v
+ignore_equiv_appends	cilrep.ml	/^let ignore_equiv_appends = ref false $/;"	v
+ignore_standard_headers	cilrep.ml	/^let ignore_standard_headers = ref false $/;"	v
+ignore_string_equiv_fixes	cilrep.ml	/^let ignore_string_equiv_fixes = ref false $/;"	v
+ignore_untyped_returns	cilrep.ml	/^let ignore_untyped_returns = ref false $/;"	v
+in_map_domain	cdiff.ml	/^let in_map_domain (m : NodeMap.t) (t : tree_node) =$/;"	v
+in_map_range	cdiff.ml	/^let in_map_range (m : NodeMap.t) (t : tree_node) =$/;"	v
+incoming_pop	population.ml	/^let incoming_pop = ref ""$/;"	v
+incoming_pop_file	global.ml	/^let incoming_pop_file = ref "" $/;"	v
+individuals	population.ml	/^          let individuals = get_lines filename in $/;"	v
+indivs_in_front	multiopt.ml	/^          let indivs_in_front = Hashtbl.find_all f !front_idx in $/;"	v
+indivs_in_front	multiopt.ml	/^          let indivs_in_front =$/;"	v
+info	search.ml	/^type info = { generation : int ; test_case_evals : int }$/;"	t
+inform_neighbours	distserver.ml	/^        let rec inform_neighbours () =$/;"	v
+init_map	cdiff.ml	/^let init_map () = IntMap.add (-1) deleted_node (IntMap.empty)$/;"	v
+initialize_ga	search.ml	/^let initialize_ga (original : ('a,'b) Rep.representation) $/;"	v
+initialize_node_info	diffprocessor.ml	/^let initialize_node_info orig_sig rep_sig = begin$/;"	v
+inserts_between_lines	sourcereader.ml	/^let inserts_between_lines = ref []$/;"	v
+instantiations	cilrep.ml	/^  let instantiations = Hashtbl.create (List.length globals) in$/;"	v
+instr	pellacini.ml	/^        let instr = $/;"	v
+instrs	cdiff.ml	/^      let instrs = Array.of_list (lfoldl (fun a i -> a @ (instr_children i)) [] il) in$/;"	v
+instrument_fault_localization	cilrep.ml	/^  method instrument_fault_localization $/;"	m
+instrument_fault_localization	llvmrep.ml	/^  method instrument_fault_localization$/;"	m
+instrument_fault_localization	stringrep.ml	/^  method instrument_fault_localization _ _ _ = $/;"	m
+internal_compute_source_buffers	elfrep.ml	/^  method internal_compute_source_buffers () =$/;"	m
+internal_constraints	cilrep.ml	/^      let rec internal_constraints current constraints  = $/;"	v
+internal_copy	asmrep.ml	/^  method internal_copy () : 'self_type =$/;"	m	class:asmRep
+internal_copy	cilrep.ml	/^  method internal_copy () : 'self_type = {< base =  ref (copy !base) >}$/;"	m	class:astCilRep
+internal_copy	cilrep.ml	/^  method internal_copy () : 'self_type =$/;"	m	class:cilRep
+internal_copy	elfrep.ml	/^  method internal_copy () : 'self_type =$/;"	m
+internal_output_source	cgrep.ml	/^  method internal_output_source (source_name : string) =$/;"	m
+internal_parse	cgrep.ml	/^  method internal_parse (filename : string) =$/;"	m	class:cgRep
+internal_post_source	cgrep.ml	/^  method internal_post_source (filename : string) = $/;"	m	class:cgRep
+internal_structural_signature	cdiffmain.ml	/^  method internal_structural_signature () =$/;"	m
+internal_structural_signature	cilrep.ml	/^  method internal_structural_signature () =$/;"	m
+intersect	template.ml	/^  intersect : 'a -> 'a -> 'a$/;"	r	type:solver
+inv_typelabel_exp_ht	cdiff.ml	/^let inv_typelabel_exp_ht = Hashtbl.create 255 $/;"	v
+inv_typelabel_ht	cdiff.ml	/^let inv_typelabel_ht = Hashtbl.create 255 $/;"	v
+invocations	stats2.ml	/^let invocations = Hashtbl.create 255 $/;"	v
+io_function_names	knownfuns.ml	/^let io_function_names = $/;"	v
+isArithmeticType	cilrep.ml	/^let isArithmeticType t = $/;"	v
+isFunPtrType	ptranal.ml	/^let isFunPtrType (t : typ) : bool =$/;"	v
+isFunctionType	cilrep.ml	/^let isFunctionType t = $/;"	v
+isIntegralType	cilrep.ml	/^let isIntegralType t = $/;"	v
+isPointerType	cilrep.ml	/^let isPointerType t = $/;"	v
+isScalarType	cilrep.ml	/^let isScalarType t =$/;"	v
+is_all_constant	pellacini.ml	/^let is_all_constant file = $/;"	v
+is_bad	diffprocessor.ml	/^      let is_bad = orig_text=[] || fn="" || beginline<1 in$/;"	v
+is_empty	template.ml	/^  is_empty : 'a -> bool ;$/;"	r	type:solver
+is_global_label	golf.ml	/^let is_global_label l = (find l).l_global$/;"	v
+is_io_function	knownfuns.ml	/^let is_io_function name = $/;"	v
+is_max_fitness	cdiffmain.ml	/^  method is_max_fitness () = $/;"	m
+is_max_fitness	cilrep.ml	/^  method is_max_fitness () = Fitness.test_to_first_failure (self :> ('a, 'b) Rep.representation)$/;"	m
+is_not_const	pellacini.ml	/^let is_not_const e =  match e with$/;"	v
+is_param_label	golf.ml	/^let is_param_label l = (find l).l_param || (find l).l_global$/;"	v
+is_pessimal	multiopt.ml	/^let is_pessimal arr = $/;"	v
+is_pure_function	knownfuns.ml	/^let is_pure_function name = $/;"	v
+is_ret_label	golf.ml	/^let is_ret_label l = (find l).l_ret  || (find l).l_global (* todo - check *)$/;"	v
+is_seeded_label	golf.ml	/^let is_seeded_label l = (find l).l_seeded$/;"	v
+is_valgrind	rep.ml	/^let is_valgrind = ref false$/;"	v
+is_xyz_field	pellacini.ml	/^let is_xyz_field fi = $/;"	v
+it	cdiff.ml	/^          let it = match String.lowercase ea with $/;"	v
+it	cdiff.ml	/^  let it = (labels, skind, str) in $/;"	v
+iterate	population.ml	/^  let iterate population iterate_function = liter iterate_function population$/;"	v
+iterate_generations	search.ml	/^  let rec iterate_generations gen incoming_population =$/;"	v
+join	golf.ml	/^let join (t : tau) (t' : tau) : tau =$/;"	v
+join_inits	golf.ml	/^let join_inits (tl : tau list) : tau =$/;"	v
+k	global.ml	/^  let k result = begin$/;"	v
+k_minus_1	multiopt.ml	/^                let k_minus_1 = i_array.(k-1) in $/;"	v
+k_minus_1_values	multiopt.ml	/^                let k_minus_1_values = evaluate k_minus_1 in $/;"	v
+k_plus_1	multiopt.ml	/^                let k_plus_1 = i_array.(k+1) in $/;"	v
+k_plus_1_values	multiopt.ml	/^                let k_plus_1_values = evaluate k_plus_1 in $/;"	v
+key	progeq.ml	/^        let key = fd.svar in $/;"	v
+key	progeq.ml	/^      let key = elt.svar in$/;"	v
+kids	multiopt.ml	/^          let kids =  GPPopulation.do_cross original one two in $/;"	v
+kids	multiopt.ml	/^          let kids = List.map (fun kid -> $/;"	v
+la	cilrep.ml	/^      let la, lb, lf = if !ignore_dead_code then begin$/;"	v
+label_counter	cilrep.ml	/^let label_counter = ref 0 $/;"	v
+label_repair	rep.ml	/^let label_repair = ref false $/;"	v
+labels	cdiff.ml	/^  let labels = List.map convert_label s.labels in$/;"	v
+last	distserver.ml	/^          let last = List.nth lst (!num_comps-1) in$/;"	v
+last_chars	nhtserver.ml	/^                            let last_chars = Buffer.sub c.read_payload $/;"	v
+last_good_line	diffprocessor.ml	/^let last_good_line = ref 0$/;"	v
+last_line	diffprocessor.ml	/^  last_line : int ;$/;"	r	type:cdiff_node
+lc	progeq.ml	/^        let lc = ref 0 in $/;"	v
+lc	progeq.ml	/^      let lc = ref 0 in $/;"	v
+lc	progeq.ml	/^  let lc = ref 0 in $/;"	v
+len	cdiff.ml	/^            let len = Array.length ynode.children in $/;"	v
+len	nhtserver.ml	/^                      let len = String.length string_to_save in$/;"	v
+lfilt	global.ml	/^let lfilt = List.filter$/;"	v
+lflat	global.ml	/^let lflat = List.flatten$/;"	v
+lflatmap	global.ml	/^let lflatmap fnc lst = List.flatten (List.map fnc lst)$/;"	v
+lfoldl	global.ml	/^let lfoldl = List.fold_left$/;"	v
+lfoldl2	global.ml	/^let lfoldl2 = List.fold_left2$/;"	v
+line	global.ml	/^              let line = input_line fin in$/;"	v
+line	rep.ml	/^                   let line = input_line fin in$/;"	v
+lineRangeMethod	diffprocessor.ml	/^let lineRangeMethod ht id currentLoc = begin$/;"	v
+lineRangeVisitor	diffprocessor.ml	/^class lineRangeVisitor id ht = object$/;"	c
+line_lst	elfrep.ml	/^      let line_lst = $/;"	v
+line_num	asmrep.ml	/^            let line_num = Hashtbl.find map addr in$/;"	v
+line_to_insert	diffprocessor.ml	/^            let line_to_insert =$/;"	v
+listen_max	nhtserver.ml	/^let listen_max = ref 16$/;"	v
+liter	global.ml	/^let liter = List.iter$/;"	v
+live_bytes	global.ml	/^let live_bytes () : int = $/;"	v
+livenessVisitor	cilrep.ml	/^class livenessVisitor lb la lf = object$/;"	c
+liveness_after	cilrep.ml	/^      liveness_after  : liveness_information ; $/;"	r	type:ast_info
+liveness_before	cilrep.ml	/^      liveness_before : liveness_information ; $/;"	r	type:ast_info
+liveness_failures	cilrep.ml	/^      liveness_failures : StringSet.t ; $/;"	r	type:ast_info
+liveness_information	cilrep.ml	/^type liveness_information = $/;"	t
+llen	global.ml	/^let llen = List.length$/;"	v
+llvmRep	llvmrep.ml	/^class llvmRep = object (self : 'self_type)$/;"	c
+llvmRep_version	llvmrep.ml	/^let llvmRep_version = "1"$/;"	v
+lmap	global.ml	/^let lmap = List.map$/;"	v
+lmap2	global.ml	/^let lmap2 = List.map2$/;"	v
+lmem	global.ml	/^let lmem = List.mem$/;"	v
+load_genome_from_string	cilrep.ml	/^  method load_genome_from_string str = $/;"	m	class:patchCilRep
+load_oracle	cilrep.ml	/^  method load_oracle (filename : string) = begin$/;"	m
+load_started	stats2.ml	/^let load_started = ref (Unix.gettimeofday ())$/;"	v
+load_templates	cilrep.ml	/^  method load_templates template_file = $/;"	m
+localset	cilrep.ml	/^    let localset = ref IntSet.empty in$/;"	v
+localshave	cilrep.ml	/^      localshave : IntSet.t IntMap.t ;$/;"	r	type:ast_info
+localshave	cilrep.ml	/^    let localshave = ref !global_ast_info.localshave in$/;"	v
+localsused	cilrep.ml	/^      localsused : IntSet.t IntMap.t ;$/;"	r	type:ast_info
+localsused	cilrep.ml	/^    let localsused = ref !global_ast_info.localsused in$/;"	v
+low	cilrep.ml	/^          let low, high = statement_range k in $/;"	v
+low	cilrep.ml	/^        let low, high = statement_range k in $/;"	v
+lrev	global.ml	/^let lrev = List.rev$/;"	v
+lsort	global.ml	/^let lsort = List.sort$/;"	v
+lst	distserver.ml	/^          let lst = random_order (lstmaker 0) in$/;"	v
+lval_hole	cilrep.ml	/^    let lval_hole  (hole : hole_info) (assignment : filled StringMap.t) =$/;"	v
+main	cdiffmain.ml	/^let main () = begin$/;"	v
+main	distserver.ml	/^let main ()= begin$/;"	v
+main	main.ml	/^let main () = begin$/;"	v
+main	nhtserver.ml	/^let main () = begin$/;"	v
+main_socket	network.ml	/^  let main_socket = socket PF_INET SOCK_STREAM 0 in$/;"	v
+make_fresh	golf.ml	/^let make_fresh (name : string) : tau =$/;"	v
+make_lval	golf.ml	/^let make_lval (lbl, t : label * tau) : lvalue =$/;"	v
+make_lvalue	golf.ml	/^let make_lvalue (is_global : bool) (name : string) (vio : Cil.varinfo option) : lvalue =$/;"	v
+make_message	network.ml	/^let make_message (lst : ('a,'b) GPPopulation.t) = $/;"	v
+make_name	cilrep.ml	/^    let make_name n = if !use_subdirs then Some(n) else None in$/;"	v
+make_path	golf.ml	/^let make_path (k, l, l', b) =$/;"	v
+make_summary	golf.ml	/^let make_summary = leq_label$/;"	v
+many	multiopt.ml	/^  let many = pop @ !children in $/;"	v
+map	population.ml	/^  let map population map_function = lmap map_function population$/;"	v
+map_size	cdiff.ml	/^let map_size (m : NodeMap.t) = NodeMap.cardinal m $/;"	v
+mapping	cdiff.ml	/^let rec mapping (node_info :  tree_node IntMap.t) $/;"	v
+match_fragment	cdiff.ml	/^and match_fragment node_info x y (m : NodeMap.t) (m' : NodeMap.t ref) = $/;"	v
+matched_backward_rules	golf.ml	/^    let matched_backward_rules p =$/;"	v
+matching	golf.ml	/^                       let matching =$/;"	v
+matching	golf.ml	/^               let matching =$/;"	v
+max	diffprocessor.ml	/^      let max = (List.nth !lineRange ((List.length !lineRange)-1)) in$/;"	v
+max	diffprocessor.ml	/^    let max = List.length lines in$/;"	v
+max	elfrep.ml	/^          let max x y = if x > y then x else y in$/;"	v
+max_atom	asmrep.ml	/^  method max_atom () =$/;"	m
+max_atom	cilrep.ml	/^  method max_atom () = !stmt_count $/;"	m
+max_atom	elfrep.ml	/^  method max_atom () = Array.length !bytes$/;"	m
+max_atom	llvmrep.ml	/^  method max_atom () =$/;"	m
+max_atom	stringrep.ml	/^  method max_atom () = Array.length !genome $/;"	m
+max_evals	search.ml	/^let max_evals = ref 0$/;"	v
+may_alias	golf.ml	/^let may_alias (t1 : tau) (t2 : tau) : bool =$/;"	v
+may_alias	ptranal.ml	/^let may_alias (e1 : exp) (e2 : exp) : bool =$/;"	v
+mem_mapping	asmrep.ml	/^  method mem_mapping asm_name bin_name =$/;"	m
+mem_mem_alias	progeq.ml	/^let mem_mem_alias exp1 exp2 = $/;"	v
+message_parse	network.ml	/^let message_parse (orig : ('a,'b) Rep.representation) (msg : string) $/;"	v
+min_script	cilrep.ml	/^  val min_script = ref None$/;"	v
+minimizableObject	minimization.ml	/^class virtual minimizableObject = object(self : #minimizableObjectType)$/;"	c
+minimizableObjectType	minimization.ml	/^class type minimizableObjectType = object('self_type)$/;"	c
+minimization	minimization.ml	/^let minimization = ref false$/;"	v
+minimize	multiopt.ml	/^let minimize = ref false $/;"	v
+minimize_patch	minimization.ml	/^let minimize_patch = ref false$/;"	v
+minimized	minimization.ml	/^  let minimized = delta_set_to_list minimized_script in$/;"	v
+minimized_script	minimization.ml	/^  let minimized_script = delta_debug c 2 in$/;"	v
+model	search.ml	/^  let model = {$/;"	v
+modify_inserts	sourcereader.ml	/^let modify_inserts line_number = begin$/;"	v
+msg	distserver.ml	/^             let msg = Printf.sprintf "#%d:" num in$/;"	v
+msg	main.ml	/^  let msg = Unix.error_message e in $/;"	v
+msglist	distserver.ml	/^            let msglist = spin !socketlist [] in$/;"	v
+msgpop	network.ml	/^                let msgpop = make_message (get_exchange rep population) in $/;"	v
+msgs	distserver.ml	/^             let msgs,last_msg =$/;"	v
+multithread_coverage	cilrep.ml	/^let multithread_coverage = ref false$/;"	v
+mut_ids	network.ml	/^      let mut_ids = rep#get_faulty_atoms () in$/;"	v
+mutate	search.ml	/^let mutate ?(test = false)  (variant : ('a,'b) Rep.representation) =$/;"	v
+mutations	rep.ml	/^  val mutations = ref []$/;"	v
+my_all_constant	pellacini.ml	/^let my_all_constant = new allConstantVisitor$/;"	v
+my_app	cilrep.ml	/^let my_app = new appVisitor $/;"	v
+my_constraints	cilrep.ml	/^    let my_constraints = new collectConstraints $/;"	v
+my_del	cilrep.ml	/^let my_del = new delVisitor $/;"	v
+my_find_atom	cilrep.ml	/^let my_find_atom = new findAtomVisitor$/;"	v
+my_findbreakcontinue	cilrep.ml	/^let my_findbreakcontinue = new findBreakContinueVisitor$/;"	v
+my_findenclosingfundec	cilrep.ml	/^let my_findenclosingfundec = new findEnclosingFundecVisitor$/;"	v
+my_findenclosingloop	cilrep.ml	/^let my_findenclosingloop = new findEnclosingLoopVisitor$/;"	v
+my_findstmt	cilrep.ml	/^let my_findstmt = new findStmtVisitor$/;"	v
+my_float_of_string	global.ml	/^let my_float_of_string str =$/;"	v
+my_get	cilrep.ml	/^let my_get = new getVisitor$/;"	v
+my_get_exp	cilrep.ml	/^let my_get_exp = new getExpVisitor $/;"	v
+my_int_of_string	global.ml	/^let my_int_of_string str =$/;"	v
+my_line_range_visitor	diffprocessor.ml	/^let my_line_range_visitor = new lineRangeVisitor$/;"	v
+my_liveness	cilrep.ml	/^let my_liveness = new livenessVisitor$/;"	v
+my_normalize_visitor	pellacini.ml	/^let my_normalize_visitor = new normalizeVisitor$/;"	v
+my_num	cdiffmain.ml	/^let my_num = new numVisitor$/;"	v
+my_numsemantic	cilrep.ml	/^let my_numsemantic = new numVisitor true$/;"	v
+my_port	network.ml	/^let my_port = ref 60000$/;"	v
+my_put	cilrep.ml	/^let my_put = new putVisitor$/;"	v
+my_put_exp	cilrep.ml	/^let my_put_exp = new putExpVisitor $/;"	v
+my_remove_casts	pellacini.ml	/^let my_remove_casts = new removeCastsVisitor$/;"	v
+my_rep	cilrep.ml	/^let my_rep = new replaceVisitor$/;"	v
+my_rule_one_visitor	pellacini.ml	/^let my_rule_one_visitor = new ruleOneVisitor$/;"	v
+my_rule_three_visitor	pellacini.ml	/^let my_rule_three_visitor = new ruleThreeVisitor$/;"	v
+my_send	distglobal.ml	/^let my_send sock str num1 num2 msglst =$/;"	v
+my_sid_to_label	cilrep.ml	/^let my_sid_to_label = new sidToLabelVisitor$/;"	v
+my_simple_fun_visitor	cgrep.ml	/^let my_simple_fun_visitor = new simpleFunVisitor$/;"	v
+my_simple_num_visitor	pellacini.ml	/^let my_simple_num_visitor = new simpleNumVisitor$/;"	v
+my_swap	cilrep.ml	/^		let my_swap = my_swap stmt_id1 skind1 stmt_id2 skind2 in$/;"	v
+my_swap	cilrep.ml	/^let my_swap = new swapVisitor $/;"	v
+my_zero	cdiffmain.ml	/^let my_zero = new numToZeroVisitor$/;"	v
+n	multiopt.ml	/^        let n = Hashtbl.find_all f i in$/;"	v
+n	pellacini.ml	/^        let n = if f = 0. then 1L else 0L in $/;"	v
+n_p	multiopt.ml	/^              let n_p = rephash_find dominated_by_count p in $/;"	v
+n_q	multiopt.ml	/^                let n_q = rephash_find dominated_by_count q in $/;"	v
+name	multiopt.ml	/^          let name = Filename.concat subdir (prefix ^ !Global.extension) in$/;"	v
+name	rep.ml	/^  method name () = $/;"	m
+name	stats2.ml	/^  name : string; $/;"	r	type:t
+neg_tests	global.ml	/^let neg_tests = ref 1 $/;"	v
+negative_path_weight	rep.ml	/^let negative_path_weight = ref 1.0$/;"	v
+negative_path_weight'	rep.ml	/^          let negative_path_weight' = Marshal.from_channel fin in$/;"	v
+negative_test_weight	fitness.ml	/^let negative_test_weight = ref 2.0 $/;"	v
+neutral_variants	search.ml	/^let neutral_variants (rep : ('a,'b) Rep.representation) = begin$/;"	v
+neutral_walk	search.ml	/^let neutral_walk (original : ('a,'b) Rep.representation) $/;"	v
+neutral_walk_max_size	search.ml	/^let neutral_walk_max_size = ref 0$/;"	v
+neutral_walk_weight	search.ml	/^let neutral_walk_weight = ref ""$/;"	v
+new_deprecated_args	global.ml	/^let new_deprecated_args = ref "" $/;"	v
+new_globals	cilrep.ml	/^    let new_globals = $/;"	v
+new_h1	population.ml	/^    let new_h1 = lfoldl (fun acc str -> acc^str^" ") "" new_h1 in$/;"	v
+new_h1	population.ml	/^    let new_h1 = lmap (c_one#history_element_to_str) (h11 @ h22) in$/;"	v
+new_h2	population.ml	/^    let new_h2 = lfoldl (fun acc str -> acc^str^" ") "" new_h2 in$/;"	v
+new_h2	population.ml	/^    let new_h2 = lmap (c_two#history_element_to_str) (h21 @ h12) in$/;"	v
+new_node	cdiff.ml	/^let new_node typelabel = $/;"	v
+new_node	diffprocessor.ml	/^      let new_node =$/;"	v
+new_pop	search.ml	/^          let new_pop =$/;"	v
+new_state	nhtserver.ml	/^                                let new_state, new_payload = process_payload payload_string in$/;"	v
+new_va	pellacini.ml	/^        let new_va = {va with vname = new_vname} in $/;"	v
+new_vname	pellacini.ml	/^        let new_vname = Pretty.sprint ~width:80 $/;"	v
+new_weight	cilrep.ml	/^        let new_weight = max sofar weight in $/;"	v
+newline_regexp	nhtserver.ml	/^let newline_regexp = Str.regexp "[\\r\\n]+" $/;"	v
+newstmt	cilrep.ml	/^          let newstmt = cstmt print_str $/;"	v
+newv	pellacini.ml	/^            let newv = copy incoming in $/;"	v
+newv	pellacini.ml	/^          let newv = copy incoming in $/;"	v
+next_generation	multiopt.ml	/^      let next_generation = ref [] in $/;"	v
+ngsa_ii	multiopt.ml	/^let rec ngsa_ii (original : ('a,'b) Rep.representation) (incoming_pop) : unit =$/;"	v
+ngsa_ii_sort	multiopt.ml	/^  let ngsa_ii_sort pop = begin$/;"	v
+nht_cache_add	rep.ml	/^let nht_cache_add digest (test : test_and_condition) result = $/;"	v
+nht_cache_query	rep.ml	/^let nht_cache_query digest test = $/;"	v
+nht_connection	rep.ml	/^let nht_connection () = $/;"	v
+nht_id	rep.ml	/^let nht_id = ref "global" $/;"	v
+nht_port	rep.ml	/^let nht_port = ref 51000$/;"	v
+nht_server	rep.ml	/^let nht_server = ref "" $/;"	v
+nht_sockaddr	rep.ml	/^let nht_sockaddr = ref None $/;"	v
+nid	cdiff.ml	/^  mutable nid : node_id ; (* unique per node *)$/;"	r	type:tree_node
+nid_to_string_list	diffprocessor.ml	/^  let nid_to_string_list nid = $/;"	v
+noLineCilPrinter	cilprinter.ml	/^let noLineCilPrinter = new noLineCilPrinterClass $/;"	v
+noLineCilPrinterClass	cilprinter.ml	/^class noLineCilPrinterClass = object$/;"	c
+noLineToStringCilPrinter	cilprinter.ml	/^let noLineToStringCilPrinter = new noLineToStringCilPrinterClass $/;"	v
+noLineToStringCilPrinterClass	cilprinter.ml	/^class noLineToStringCilPrinterClass $/;"	c
+no_inf	multiopt.ml	/^let no_inf = ref false $/;"	v
+no_rep_cache	rep.ml	/^let no_rep_cache = ref false $/;"	v
+no_test_cache	rep.ml	/^let no_test_cache = ref false$/;"	v
+node_counter	cdiff.ml	/^let node_counter = ref 0 $/;"	v
+node_id	cdiff.ml	/^type node_id = int $/;"	t
+node_id_to_cdiff_node	diffprocessor.ml	/^let node_id_to_cdiff_node = Hashtbl.create 255 $/;"	v
+node_id_to_line_list_fn	diffprocessor.ml	/^let node_id_to_line_list_fn = hcreate 10$/;"	v
+node_info	cdiff.ml	/^            let node_info = $/;"	v
+node_map	minimization.ml	/^      node_map : Cdiff.tree_node IntMap.t }$/;"	r	type:structural_signature
+node_of_nid	cdiff.ml	/^let node_of_nid node_map x = IntMap.find x node_map$/;"	v
+node_to_stmt	cdiff.ml	/^let rec node_to_stmt (node_info : tree_node IntMap.t) (n : tree_node) : Cil.stmt = $/;"	v
+nodes_eq	cdiff.ml	/^let nodes_eq t1 t2 = t1.typelabel = t2.typelabel $/;"	v
+nodes_in_tree_equal_to	cdiff.ml	/^let rec nodes_in_tree_equal_to $/;"	v
+nop_bxform	cilprinter.ml	/^let nop_bxform b = b$/;"	v
+nop_xform	cilprinter.ml	/^let nop_xform x = x $/;"	v
+normalizeVisitor	pellacini.ml	/^class normalizeVisitor method_name delta_retval = object$/;"	c
+note_success	cilrep.ml	/^  method note_success () =$/;"	m
+note_success	cilrep.ml	/^  method virtual note_success : unit -> unit$/;"	m
+note_success	search.ml	/^let note_success (rep : ('a,'b) Rep.representation) $/;"	v
+note_value	pellacini.ml	/^and note_value e res = $/;"	v
+now	nhtserver.ml	/^                let now = Unix.gettimeofday () in$/;"	v
+now	stats2.ml	/^  let now = Unix.gettimeofday () in $/;"	v
+num	distserver.ml	/^              let num,var = Scanf.sscanf buffer "T %d%s@\\n" (fun num var -> (num,var)) in$/;"	v
+num	rep.ml	/^                   let num = my_int_of_string line in $/;"	v
+num1	network.ml	/^                let num1 = int_of_string (String.sub hist 2 (tmp-2)) in$/;"	v
+num2	network.ml	/^                let num2 = $/;"	v
+num2	network.ml	/^                let num2 = int_of_string $/;"	v
+numToZeroVisitor	cdiffmain.ml	/^class numToZeroVisitor = object$/;"	c
+numToZeroVisitor	cilrep.ml	/^class numToZeroVisitor = object$/;"	c	class:xformRepVisitor
+numVisitor	cdiffmain.ml	/^class numVisitor = object$/;"	c
+num_all_edits	search.ml	/^  let num_all_edits = llen all_edits in $/;"	v
+num_comps	distglobal.ml	/^let num_comps = ref 2$/;"	v
+num_indivs	multiopt.ml	/^          let num_indivs = List.length indivs_in_front in $/;"	v
+num_neutral	search.ml	/^  let num_neutral variants_w_fit =$/;"	v
+num_objectives	multiopt.ml	/^let num_objectives = ref 2  (* number of objectives *) $/;"	v
+num_pre_appends	search.ml	/^  let num_pre_appends = llen !appends in $/;"	v
+num_test_evals_ignore_cache	rep.ml	/^let num_test_evals_ignore_cache () = $/;"	v
+num_to_io	cdiff.ml	/^  let num_to_io x = if x < 0 then None else Some(x) in $/;"	v
+number	search.ml	/^let number = original#max_atom() in$/;"	v
+offset	nhtserver.ml	/^                    let offset, length = c.write_offset in$/;"	v
+old_result	progeq.ml	/^        let old_result = Hashtbl.find effects_cache key in $/;"	v
+one_hole	cilrep.ml	/^    let one_hole (hole : hole_info) (assignment : filled StringMap.t) =$/;"	v
+one_sample_fitness	fitness.ml	/^let one_sample_fitness rep sample fac =$/;"	v
+one_template	cilrep.ml	/^    let rec one_template (assignment, unassigned) =$/;"	v
+options	global.ml	/^let options = ref [$/;"	v
+oracle_code	cilrep.ml	/^      oracle_code : Cil.file StringMap.t ;$/;"	r	type:ast_info
+oracle_genome	main.ml	/^let oracle_genome = ref ""$/;"	v
+orig_file	sourcereader.ml	/^let orig_file = ref ""$/;"	v
+orig_fn	diffprocessor.ml	/^      let orig_fn = base^"-original."^ext in$/;"	v
+orig_rev	sourcereader.ml	/^let orig_rev = ref ""$/;"	v
+orig_text	diffprocessor.ml	/^      let orig_text = get_lines_from_file fn beginline endline in$/;"	v
+orig_txt	diffprocessor.ml	/^  orig_txt : string list ;$/;"	r	type:cdiff_node
+original_fixes	cilrep.ml	/^    let original_fixes = List.length !fix_localization in $/;"	v
+original_retval	pellacini.ml	/^let original_retval = ref None $/;"	v
+other_tests_visiting_this_atom	rep.ml	/^                  let other_tests_visiting_this_atom =$/;"	v
+output	pellacini.ml	/^let output = Hashtbl.create 255 $/;"	v
+output_cil_file	cilprinter.ml	/^let output_cil_file (outfile : string) (cilfile : Cil.file) = $/;"	v
+output_cil_file_to_channel	cilprinter.ml	/^let output_cil_file_to_channel (fout : out_channel) (cilfile : Cil.file) = $/;"	v
+output_cil_file_to_string	cilprinter.ml	/^let output_cil_file_to_string ?(xform = nop_xform) ?(bxform = nop_bxform) $/;"	v
+output_format	population.ml	/^let output_format = ref "txt"$/;"	v
+output_list	cilrep.ml	/^    let output_list = $/;"	v
+output_name	minimization.ml	/^  let output_name = "minimized.diffscript" in$/;"	v
+output_source	elfrep.ml	/^  method output_source source_name =$/;"	m
+output_source	llvmrep.ml	/^  method output_source source_name = string_to_file source_name !genome$/;"	m
+output_source	rep.ml	/^  method output_source source_name = $/;"	m
+output_to_disk	cdiffmain.ml	/^  method output_to_disk () : unit = abort "output to disk not implemented"$/;"	m
+output_values	pellacini.ml	/^let output_values = Hashtbl.create 255 $/;"	v
+pGlobal	cilprinter.ml	/^  method pGlobal () (g:global) : Pretty.doc = $/;"	m	class:noLineCilPrinterClass
+pGlobal	cilprinter.ml	/^  method pGlobal () (g:global) : Pretty.doc = $/;"	m	class:noLineToStringCilPrinterClass
+pInstr	cilprinter.ml	/^  method pInstr () (i : instr) = $/;"	m	class:toStringCilPrinterClass
+pLineDirective	cilprinter.ml	/^  method pLineDirective ?(forcefile=false) l = $/;"	m	class:noLineCilPrinterClass
+pLineDirective	cilprinter.ml	/^  method pLineDirective ?(forcefile=false) l = $/;"	m	class:noLineToStringCilPrinterClass
+p_temp	diffprocessor.ml	/^                      let p_temp = ref p in$/;"	v
+p_values	multiopt.ml	/^                  let p_values = evaluate p in $/;"	v
+p_values	multiopt.ml	/^          let p_values = evaluate p in $/;"	v
+pair_compare	global.ml	/^let pair_compare (a,_) (b,_) = compare a b$/;"	v
+parent_node	diffprocessor.ml	/^                      let parent_node = Hashtbl.find ht nodeY.id in$/;"	v
+parent_node	diffprocessor.ml	/^      let parent_node = Hashtbl.find ht !id_count in$/;"	v
+parent_of	cdiff.ml	/^let parent_of (node_info : tree_node IntMap.t) $/;"	v
+parent_of_nid	cdiff.ml	/^let parent_of_nid (node_info : tree_node IntMap.t) $/;"	v
+parents	multiopt.ml	/^      let parents = GPPopulation.tournament_selection pop $/;"	v
+parse_address	elfrep.ml	/^    let parse_address line =$/;"	v
+parse_addresses	elfrep.ml	/^    let parse_addresses lines =$/;"	v
+parse_options_with_deprecated	global.ml	/^let parse_options_with_deprecated () : unit =$/;"	v
+partition	cilrep.ml	/^          let partition = List.filter (fun dst_stmt -> $/;"	v
+partition	progeq.ml	/^let partition files edit_effects =$/;"	v
+parts	cilrep.ml	/^        let parts = $/;"	v
+parts	pellacini.ml	/^         let parts = Str.split (Str.regexp "[, \\t\\r\\n]+") str in $/;"	v
+parts	rep.ml	/^         let parts = Str.split (Str.regexp "[, \\t\\r\\n]+") str in $/;"	v
+patchCilRep	cilrep.ml	/^class patchCilRep = object (self : 'self_type)$/;"	c
+path	elfrep.ml	/^  val path = ref ""$/;"	v	class:elfRep
+path_signature	golf.ml	/^let path_signature k l l' b : int list =$/;"	v
+payload_length	nhtserver.ml	/^                        let payload_length = Buffer.length c.read_payload in $/;"	v
+payload_string	nhtserver.ml	/^                                let payload_string = Buffer.contents c.read_payload in $/;"	v
+payload_string	nhtserver.ml	/^                    let payload_string = c.write_payload in $/;"	v
+pellacini	pellacini.ml	/^let pellacini (original_filename : string) = $/;"	v
+pellacini_loop	pellacini.ml	/^let pellacini_loop original method_name incoming seqno = $/;"	v
+pellacini_method_name	pellacini.ml	/^let pellacini_method_name = ref "" $/;"	v
+perc	rep.ml	/^        let perc = $/;"	v
+perc	stats2.ml	/^      let perc = (100.0 *. t \/. total) in $/;"	v
+phonyAddrOf	golf.ml	/^let phonyAddrOf (lv : lvalue) : lvalue =$/;"	v
+pivot_line	sourcereader.ml	/^let pivot_line = ref max_int$/;"	v
+plst	cdiff.ml	/^                  let plst = Array.to_list parent.children in$/;"	v
+plst	cdiff.ml	/^                  let plst = List.map (fun child ->$/;"	v
+points_to_aux	golf.ml	/^let points_to_aux (t : tau) : constant list =$/;"	v
+points_to_names	golf.ml	/^let points_to_names (lv : lvalue) : string list =$/;"	v
+pop	population.ml	/^    let pop = ref [original] in$/;"	v
+pop	search.ml	/^          let pop = random_order new_pop in $/;"	v
+pop	search.ml	/^    let pop = $/;"	v
+popsize	population.ml	/^let popsize = ref 40$/;"	v
+population	cgrep.ml	/^        let population = if !incoming_pop_file <> "" then $/;"	v
+population	network.ml	/^                  let population = population @ from_neighbor in$/;"	v
+population	network.ml	/^            let population = $/;"	v
+population_version	population.ml	/^let population_version = "1"$/;"	v
+port	nhtserver.ml	/^let port = ref 51000$/;"	v
+port	rep.ml	/^let port = ref 808$/;"	v
+pos_stmts	rep.ml	/^        let pos_stmts = lmap fst !fix_localization in $/;"	v
+pos_tests	global.ml	/^let pos_tests = ref 5 $/;"	v
+position_of	cdiff.ml	/^let position_of (node_info : tree_node IntMap.t) $/;"	v
+position_of_nid	cdiff.ml	/^let position_of_nid (node_info : tree_node IntMap.t)$/;"	v
+positive_path_weight	rep.ml	/^let positive_path_weight = ref 0.1$/;"	v
+positive_path_weight'	rep.ml	/^          let positive_path_weight' = Marshal.from_channel fin in$/;"	v
+possibly_label	cilrep.ml	/^let possibly_label s str id =$/;"	v
+post_normalize	pellacini.ml	/^            let post_normalize = List.map (fun variant ->$/;"	v
+pprintf	global.ml	/^let pprintf = Printf.printf $/;"	v
+prefix	multiopt.ml	/^          let prefix = Printf.sprintf "pareto-%06d" !i in$/;"	v
+prefix	rep.ml	/^let prefix = ref ".\/"$/;"	v
+preprocess	rep.ml	/^  method preprocess source_name out_name =$/;"	m
+preprocess_command	rep.ml	/^let preprocess_command = ref ""$/;"	v
+preprocessed	cilrep.ml	/^    let preprocessed = Filename.temp_file "tmp" ".c" in$/;"	v
+pretty_printed	cilrep.ml	/^        let pretty_printed = atom_id_to_str atom_id in $/;"	v
+prev_child	diffprocessor.ml	/^                        let prev_child = $/;"	v
+print_cg_func	pellacini.ml	/^let print_cg_func ast filename = $/;"	v
+print_constraint	golf.ml	/^let print_constraint (c : tconstraint) =$/;"	v
+print_incremental_evals	fitness.ml	/^let print_incremental_evals = ref false$/;"	v
+print_path	golf.ml	/^let print_path (p : lblinfo path) : unit =$/;"	v
+print_result	ptranal.ml	/^  let print_result (name, set) =$/;"	v
+print_source_name	fitness.ml	/^let print_source_name = ref false$/;"	v
+print_str	cilrep.ml	/^          let print_str = $/;"	v
+print_tau_list	golf.ml	/^let rec print_tau_list (l : tau list) : unit =$/;"	v
+print_types	ptranal.ml	/^let print_types () : unit =$/;"	v
+printer	cilprinter.ml	/^  let printer = noLineToStringCilPrinter xform bxform in $/;"	v
+private	cilprinter.ml	/^  method private getLastNamedArgument (s:string) : exp =$/;"	m	class:toStringCilPrinterClass
+private	cilprinter.ml	/^  method private pAttrsGen (block: bool) (a: attributes) = $/;"	m
+private	cilprinter.ml	/^  method private pFunDecl () f =$/;"	m
+private	cilprinter.ml	/^  method private pStmtNext (next: Cil.stmt) () (s: Cil.stmt) =$/;"	m	class:toStringCilPrinterClass
+private	cilrep.ml	/^              method private depend t =$/;"	m	value:visitor
+private	cilrep.ml	/^        method private add_deps (d',b',n') : ('a visitAction) =$/;"	m	value:toposort_one/visitor
+private	cilrep.ml	/^  method private from_source_one_file (filename : string) : Cil.file =$/;"	m
+private	cilrep.ml	/^  method private instrument_one_file $/;"	m
+private	cilrep.ml	/^  method private internal_calculate_output_xform () = $/;"	m	class:patchCilRep
+private	cilrep.ml	/^  method private internal_compute_source_buffers () = $/;"	m
+private	cilrep.ml	/^  method private internal_parse (filename : string) = $/;"	m
+private	cilrep.ml	/^  method private internal_structural_signature () =$/;"	m
+private	elfrep.ml	/^  method private address_offset_to_instruction line =$/;"	m
+private	rep.ml	/^  method private compute_digest () = $/;"	m
+private	rep.ml	/^  method private compute_source_buffers () = $/;"	m
+private	rep.ml	/^  method private get_preprocess_command () =$/;"	m
+private	rep.ml	/^  method private get_test_command () = $/;"	m
+private	rep.ml	/^  method private internal_test_case exe_name source_name test =$/;"	m
+private	rep.ml	/^  method private internal_test_case_command exe_name source_name test =$/;"	m
+private	rep.ml	/^  method private internal_test_case_postprocess status fitness_file =$/;"	m
+private	rep.ml	/^  method private load_oracle (fname : string) : unit = $/;"	m
+private	rep.ml	/^  method private prepare_for_test_case test : test_case_preparation_result = $/;"	m
+private	rep.ml	/^  method private updated () = $/;"	m
+probability	global.ml	/^let probability p = $/;"	v
+process	edit.ml	/^let process base ext (rep :('a,'b) Rep.representation) =$/;"	v
+process	main.ml	/^let process base ext (rep :('a,'b) Rep.representation) =$/;"	v
+process_line_or_weight_file	rep.ml	/^    let process_line_or_weight_file fname scheme =$/;"	v
+process_payload	nhtserver.ml	/^let process_payload payload = $/;"	v
+process_stats	distserver.ml	/^        let process_stats buffer =$/;"	v
+program_to_repair	global.ml	/^let program_to_repair = ref "" $/;"	v
+proj_fun	golf.ml	/^let proj_fun (t : tau) : tau =$/;"	v
+promut	search.ml	/^let promut = ref 1$/;"	v
+prototypes	cilrep.ml	/^    let prototypes = ref StringMap.empty in$/;"	v
+ptrAnalysis	ptranal.ml	/^let ptrAnalysis = ref false$/;"	v
+ptrResults	ptranal.ml	/^let ptrResults = ref false$/;"	v
+ptrTypes	ptranal.ml	/^let ptrTypes = ref false$/;"	v
+pure_function_names	knownfuns.ml	/^let pure_function_names = $/;"	v
+pure_function_set	knownfuns.ml	/^let pure_function_set : StringSet.t = $/;"	v
+put	cilrep.ml	/^  method put stmt_id (stmt : cilRep_atom) =$/;"	m
+put	stringrep.ml	/^  method put idx newv = !genome.(pred idx) <- newv $/;"	m
+putExpVisitor	cilrep.ml	/^class putExpVisitor count desired first = object$/;"	c
+putVisitor	cilrep.ml	/^class putVisitor $/;"	c
+quiet	global.ml	/^let quiet = ref false$/;"	v
+r	rep.ml	/^            let r, g = self#internal_test_case sanity_exename sanity_filename $/;"	v
+random	search.ml	/^let random atom_set = $/;"	v
+random_order	global.ml	/^let random_order lst = $/;"	v
+random_seed	global.ml	/^let random_seed = ref 0 $/;"	v
+random_value_of_type	pellacini.ml	/^let rec random_value_of_type va tau = $/;"	v
+range	asmrep.ml	/^  val range = ref [ ]$/;"	v	class:asmRep
+read_payload	nhtserver.ml	/^  mutable read_payload : Buffer.t ; $/;"	r	type:connection
+read_ppm	pellacini.ml	/^let read_ppm filename =$/;"	v
+readall	distglobal.ml	/^let readall sock size = $/;"	v
+real_ify	pellacini.ml	/^let real_ify e1 = $/;"	v
+reduce_fix_space	cilrep.ml	/^  method reduce_fix_space () = $/;"	m
+reduce_fix_space	rep.ml	/^  method reduce_fix_space () = () $/;"	m
+reduce_func	network.ml	/^      let reduce_func (x, prob) = $/;"	v
+reduce_search_space	rep.ml	/^  method reduce_search_space split_fun do_uniq =$/;"	m
+regen_paths	rep.ml	/^let regen_paths = ref false$/;"	v
+register_mutations	rep.ml	/^  method register_mutations muts =$/;"	m
+registered_c_templates	cilrep.ml	/^let registered_c_templates = hcreate 10$/;"	v
+relative_positions	sourcereader.ml	/^let relative_positions = ref []$/;"	v
+remainder	search.ml	/^    let remainder = !popsize - (llen incoming_pop) in$/;"	v
+remaining	search.ml	/^        let remaining = List.filter (fun (e',t',w') -> edit <> e') remaining in $/;"	v
+removeCastsVisitor	pellacini.ml	/^class removeCastsVisitor = object$/;"	c
+rep	cgrep.ml	/^      let rep = ((new cgRep) :> ('a,'b) Rep.representation) in $/;"	v
+rep'	population.ml	/^              let rep' = original#copy () in$/;"	v
+rep_cache_file	rep.ml	/^let rep_cache_file = ref ""$/;"	v
+rep_prob	search.ml	/^let rep_prob = ref 0.0$/;"	v
+repair_script_list	diffprocessor.ml	/^let repair_script_list = ref []$/;"	v
+rephash_add	multiopt.ml	/^let rephash_add h x y = Hashtbl.add h (x#name ()) (y) $/;"	v
+rephash_find	multiopt.ml	/^let rephash_find h x = Hashtbl.find h (x#name ())  $/;"	v
+rephash_find_all	multiopt.ml	/^let rephash_find_all h x = Hashtbl.find_all h (x#name ())  $/;"	v
+rephash_mem	multiopt.ml	/^let rephash_mem h x = Hashtbl.mem h (x#name ())  $/;"	v
+rephash_replace	multiopt.ml	/^let rephash_replace h x y = Hashtbl.replace h (x#name ()) (y) $/;"	v
+replace	asmrep.ml	/^  method replace i_off j_off =$/;"	m
+replace	cilrep.ml	/^            let replace,replace_with =$/;"	v
+replace	cilrep.ml	/^  method replace stmt_id1 stmt_id2 = begin$/;"	m
+replace	llvmrep.ml	/^  method replace i j =$/;"	m
+replace	stringrep.ml	/^  method replace i j = $/;"	m
+replaceVisitor	cilrep.ml	/^class replaceVisitor (replace : atom_id) $/;"	c
+replace_in_string	global.ml	/^let replace_in_string base_string list_of_replacements = $/;"	v
+replace_sources	cilrep.ml	/^  method replace_sources replace =$/;"	m
+replace_subatom	cilrep.ml	/^  method replace_subatom stmt_id subatom_id atom = begin$/;"	m
+replace_subatom_with_constant	cilrep.ml	/^  method replace_subatom_with_constant stmt_id subatom_id =  $/;"	m
+representation	edit.ml	/^let representation = ref ""$/;"	v
+representation	main.ml	/^let representation = ref ""$/;"	v
+required	cilrep.ml	/^  let required = IntMap.find moved_sid localsused in $/;"	v
+res	cdiff.ml	/^      let res = !typelabel_counter in$/;"	v
+res	fitness.ml	/^                let res, v = rep#test_case (Positive i) in $/;"	v
+res	fitness.ml	/^              let res, v = rep#test_case (Positive i) in $/;"	v
+res	fitness.ml	/^          let res, v = rep#test_case (Negative i) in $/;"	v
+res	rep.ml	/^        let res = Hashtbl.find second_ht test in$/;"	v
+res	stats2.ml	/^          let res = f a in$/;"	v
+reset_data	sourcereader.ml	/^let reset_data () = begin$/;"	v
+resolve_exp	ptranal.ml	/^let resolve_exp (e : exp) : varinfo list =$/;"	v
+resolve_funptr	ptranal.ml	/^let resolve_funptr (e : exp) : fundec list =$/;"	v
+resolve_lval	ptranal.ml	/^let resolve_lval (lv : lval) : varinfo list =$/;"	v
+rest	fitness.ml	/^          let rest = $/;"	v
+result	cdiff.ml	/^            let result = Array.concat [ before ; [| xnode.nid |] ; after ] in $/;"	v
+result	llvmrep.ml	/^    let result =$/;"	v
+result	pellacini.ml	/^                     let result = eval_block fundec.sbody in$/;"	v
+result	progeq.ml	/^        let result = ref EffectSet.empty in $/;"	v
+result	rep.ml	/^    let result = match status with $/;"	v
+result	search.ml	/^	let result = test_to_first_failure rep in$/;"	v
+results	elfrep.ml	/^    let results = $/;"	v
+return	golf.ml	/^let return (t : tau) (t' : tau) =$/;"	v
+return	llvmrep.ml	/^    let return =$/;"	v
+retval	pellacini.ml	/^        let retval = try $/;"	v
+roots	cilrep.ml	/^  let roots =$/;"	v
+ruleThreeVisitor	pellacini.ml	/^class ruleThreeVisitor count desired averages = object$/;"	c
+rule_three_count	pellacini.ml	/^        let rule_three_count = ref 0 in $/;"	v
+run	llvmrep.ml	/^  method run (cmd : string) : unit =$/;"	m
+run_ga	search.ml	/^let run_ga ?start_gen:(start_gen=1) ?num_gens:(num_gens = (!generations))$/;"	v
+run_tests	rep.ml	/^    let run_tests test_maker max_test out_path expected =$/;"	v
+rvalue	golf.ml	/^let rvalue (lv : lvalue) : tau =$/;"	v
+s	search.ml	/^          let s = Printf.sprintf "%s %g" s prob3 in$/;"	v
+s	search.ml	/^      let s = Printf.sprintf "%g %g" prob1 prob2 in$/;"	v
+s'	cdiff.ml	/^  let s' = { s with skind = skind ; labels = labels } in $/;"	v
+s_p	multiopt.ml	/^            let s_p = rephash_find_all dominated_by p in $/;"	v
+sample	fitness.ml	/^let sample = ref 1.0$/;"	v
+sample_runs	gaussian.ml	/^let sample_runs = ref 100$/;"	v
+sample_size	fitness.ml	/^        let sample_size = $/;"	v
+sample_strategy	fitness.ml	/^let sample_strategy = ref "variant"$/;"	v
+sanity	rep.ml	/^let sanity = ref "default"$/;"	v
+sanity_check	rep.ml	/^  method sanity_check () = begin$/;"	m
+sanity_exename	rep.ml	/^    let sanity_exename = Filename.concat subdir sanity_exename in $/;"	v
+sanity_exename	rep.ml	/^let sanity_exename = ".\/repair.sanity" $/;"	v
+sanity_filename	rep.ml	/^let sanity_filename = "repair.sanity" $/;"	v
+save_connection	nhtserver.ml	/^                      let save_connection = {$/;"	v
+save_timeout	nhtserver.ml	/^let save_timeout = ref 1.0 $/;"	v
+search_edits	search.ml	/^  let rec search_edits remaining = $/;"	v
+search_strategy	global.ml	/^let search_strategy = ref "brute"$/;"	v
+search_tests	search.ml	/^  let rec search_tests variant remaining = $/;"	v
+seen_sids	cilrep.ml	/^  val seen_sids = ref (IntSet.empty)$/;"	v	class:fixPutVisitor
+select_timeout	nhtserver.ml	/^let select_timeout = ref 1.0 $/;"	v
+selection	population.ml	/^  let selection ?compare_func population desired = $/;"	v
+semantic_check	cilrep.ml	/^let semantic_check = ref "scope" $/;"	v
+sender	distserver.ml	/^          let rec sender list last =$/;"	v
+serialize	asmrep.ml	/^  method serialize ?out_channel ?global_info (filename : string) =$/;"	m
+serialize	cgrep.ml	/^  method serialize ?out_channel ?global_info (filename : string) =$/;"	m
+serialize	cilrep.ml	/^  method serialize ?out_channel ?global_info (filename : string) =$/;"	m	class:cilRep
+serialize	population.ml	/^  let serialize ?out_channel (population : ('a,'b) t) (filename : string) =$/;"	v
+serialize	rep.ml	/^  method serialize ?out_channel ?global_info (filename : string) = $/;"	m
+serialize	rep.ml	/^  method serialize ?out_channel ?global_info (filename : string) =$/;"	m
+server	network.ml	/^let server = ref false$/;"	v
+server_address	network.ml	/^    let server_address = inet_addr_of_string !hostname in$/;"	v
+server_port	distglobal.ml	/^let server_port = ref 65000$/;"	v
+server_socket	distglobal.ml	/^let server_socket = socket PF_INET SOCK_STREAM 0$/;"	v
+set_fault	rep.ml	/^    let set_fault wp = fault_localization := wp in$/;"	v
+set_fitness	rep.ml	/^  method set_fitness ?(key="tests") (f : float) = Hashtbl.add fitness key f$/;"	m
+set_fix	rep.ml	/^    let set_fix lst = fix_localization := lst in$/;"	v
+set_genome	cilrep.ml	/^  method set_genome g = $/;"	m	class:patchCilRep
+set_global	golf.ml	/^let set_global (t : tau) (b : bool) : unit =$/;"	v
+set_global_label	golf.ml	/^let set_global_label (l : label) (b : bool) : unit =$/;"	v
+set_q_names	multiopt.ml	/^        let set_q_names = Hashtbl.create 255 in $/;"	v
+set_q_reps	multiopt.ml	/^        let set_q_reps = ref [] in $/;"	v
+should_skip_test	rep.ml	/^let should_skip_test t = $/;"	v
+show_progress_fn	ptranal.ml	/^  let show_progress_fn (counted : int ref) (total : int) : unit =$/;"	v
+sid	pellacini.ml	/^let sid = ref 0 $/;"	v
+sidToLabelVisitor	cilrep.ml	/^class sidToLabelVisitor = object$/;"	c
+sids	cilrep.ml	/^    let sids = $/;"	v
+sids	cilrep.ml	/^    let sids = lfilt (fun (sid, weight) -> $/;"	v
+sids	cilrep.ml	/^    let sids = lfilt (fun (sid, weight) -> self#can_insert ~before:true replace sid) sids in $/;"	v
+sids	cilrep.ml	/^    let sids = lfilt (fun (sid, weight) -> sid <> append_after) sids in$/;"	v
+sids	cilrep.ml	/^    let sids = lfilt (fun (sid, weight) -> sid <> replace) sids in$/;"	v
+signature	minimization.ml	/^    { signature : (Cdiff.node_id StringMap.t) StringMap.t ; $/;"	r	type:structural_signature
+simpleFunVisitor	cgrep.ml	/^class simpleFunVisitor = object$/;"	c
+simpleNumVisitor	pellacini.ml	/^class simpleNumVisitor count = object$/;"	c
+single_fitness	fitness.ml	/^let single_fitness = ref false$/;"	v
+skind	cdiff.ml	/^  let skind = match s.skind with$/;"	v
+skip_failed_sanity_tests	rep.ml	/^let skip_failed_sanity_tests = ref false $/;"	v
+skipped_tests	rep.ml	/^let skipped_tests = ref ""$/;"	v
+smart_alias_query	golf.ml	/^let smart_alias_query (l : label) (l' : label) : bool =$/;"	v
+snd3	global.ml	/^let snd3 (_,b,_) = b$/;"	v
+sockaddr_to_str	nhtserver.ml	/^let sockaddr_to_str s = $/;"	v
+socket	nhtserver.ml	/^  socket : file_descr ;   (* non-blocking *) $/;"	r	type:connection
+sofar	cilrep.ml	/^        let sofar = try Hashtbl.find fixes_seen pretty_printed with _ -> 0. in $/;"	v
+sofar	search.ml	/^let sofar = ref 1 in$/;"	v
+sofar	stats2.ml	/^          let sofar = try Hashtbl.find totals name with Not_found -> 0.0 in $/;"	v
+solver	template.ml	/^type ('a,'b) solver = {$/;"	t
+sorted	stats2.ml	/^  let sorted = List.sort (fun (a,at) (b,bt) -> compare at bt) lst in $/;"	v
+source_code	sourcereader.ml	/^let source_code = ref [] (* Original source code *)$/;"	v
+source_file	cilrep.ml	/^    let source_file, chan = Filename.open_temp_file "tmp" ".c" in$/;"	v
+source_ids	cilrep.ml	/^        let source_ids = ref !global_ast_info.all_source_sids in$/;"	v
+source_line_of_atom_id	asmrep.ml	/^  method source_line_of_atom_id atom_id =$/;"	m
+source_line_of_atom_id	llvmrep.ml	/^  method source_line_of_atom_id (id : int) : int = id$/;"	m
+source_string	cilrep.ml	/^            let source_string = output_cil_file_to_string $/;"	v
+source_string	cilrep.ml	/^        let source_string = output_cil_file_to_string cil_file in$/;"	v
+sources_at_dest	cilrep.ml	/^          let sources_at_dest = $/;"	v
+space_regexp	global.ml	/^let space_regexp = Str.regexp "[ \\t]+" $/;"	v
+spin	distglobal.ml	/^let rec spin socklist accum =$/;"	v
+split	distserver.ml	/^                let split = List.tl split in $/;"	v
+split	distserver.ml	/^             let split = Str.split (Str.regexp_string ".") var in$/;"	v
+split	distserver.ml	/^            let split = (Str.split space_regexp buffer) in$/;"	v
+split_base_subdirs_ext	global.ml	/^let split_base_subdirs_ext name =$/;"	v
+split_ext	global.ml	/^let split_ext name =$/;"	v
+split_nth	global.ml	/^let rec split_nth lst n =  $/;"	v
+split_search	network.ml	/^let split_search = ref 0$/;"	v
+splitting_function	network.ml	/^      let splitting_function x length comp =$/;"	v
+spprintf	global.ml	/^let spprintf = Printf.sprintf$/;"	v
+src_effects	cilrep.ml	/^        let src_effects = Progeq.effects_of_stmtkind files src_skind in $/;"	v
+src_where	cilrep.ml	/^        let src_where, src_skind = $/;"	v
+stack	stats2.ml	/^let stack = ref [] $/;"	v
+standard_headers	cilrep.ml	/^let standard_headers = ref None $/;"	v
+start	cilrep.ml	/^              let start = $/;"	v
+start	stats2.ml	/^  start : float ;$/;"	r	type:t
+state	nhtserver.ml	/^  mutable state : connection_state ;$/;"	r	type:connection
+statement_range	cilrep.ml	/^    let statement_range filename = $/;"	v
+static_args	cilrep.ml	/^  let static_args = lfoldl (fun lst x ->$/;"	v
+stmt	cdiff.ml	/^  let stmt = mkStmt begin$/;"	v
+stmt	rep.ml	/^              let stmt = if scheme = "line" then $/;"	v
+stmt	rep.ml	/^              let stmt, weight, file = $/;"	v
+stmt_count	cilrep.ml	/^  val stmt_count = ref 1 $/;"	v	class:cilRep
+stmt_hole	cilrep.ml	/^    let stmt_hole (hole : hole_info) (assignment : filled StringMap.t) = $/;"	v
+stmt_map	cilrep.ml	/^      stmt_map : (string * string) AtomMap.t ;$/;"	r	type:ast_info
+stmt_map	cilrep.ml	/^    let stmt_map = ref !global_ast_info.stmt_map in$/;"	v
+stmt_str	cilrep.ml	/^        let stmt_str = $/;"	v
+stmt_to_node	cdiff.ml	/^  let rec stmt_to_node s =$/;"	v
+stmt_to_typelabel	cdiff.ml	/^let stmt_to_typelabel (s : Cil.stmt) = $/;"	v
+stmts	cdiff.ml	/^      let stmts = $/;"	v
+stmts'	rep.ml	/^              let stmts' = ref [] in$/;"	v
+str	cdiff.ml	/^  let str = Pretty.sprint ~width:80 doc in $/;"	v
+str	cilprinter.ml	/^      let str = Pretty.sprint ~width $/;"	v
+str	network.ml	/^    let str = $/;"	v
+str	pellacini.ml	/^         let str = file_to_string fitness_file in $/;"	v
+str	rep.ml	/^                let str = Printf.sprintf "%d\\n" stmt in$/;"	v
+str	rep.ml	/^            let str = Printf.sprintf "%d\\n" stmt in$/;"	v
+str	rep.ml	/^         let str = file_to_string fitness_file in $/;"	v
+stringRep	stringrep.ml	/^class stringRep = object (self : 'self_type)$/;"	c
+stringRep_version	stringrep.ml	/^let stringRep_version = "1" $/;"	v
+string_of_configuration	golf.ml	/^let string_of_configuration (c, i, i') =$/;"	v
+string_of_label	golf.ml	/^let string_of_label (l : label) : string =$/;"	v
+string_of_lvalue	golf.ml	/^let rec string_of_lvalue (lv : lvalue) : string =$/;"	v
+string_of_polarity	golf.ml	/^let string_of_polarity p =$/;"	v
+string_of_tag	cilrep.ml	/^let string_of_tag tag =$/;"	v
+string_of_tau	golf.ml	/^let string_of_tau (t : tau) : string =$/;"	v
+string_to_file	global.ml	/^let string_to_file (file : string) (contents : string) =$/;"	v
+string_to_save	nhtserver.ml	/^                      let string_to_save = Marshal.to_string !the_global_ht $/;"	v
+strlist	network.ml	/^        let strlist = Str.split (Str.regexp " ") (fullread server_socket) in$/;"	v
+structural_signature	minimization.ml	/^type structural_signature =  $/;"	t
+sub_exp	cgrep.ml	/^        let sub_exp = List.nth subs subatom_id in $/;"	v
+subatom_constp	search.ml	/^let subatom_constp = ref 0.5$/;"	v
+subatom_id	rep.ml	/^type subatom_id = int $/;"	t
+subatom_mutp	search.ml	/^let subatom_mutp = ref 0.0$/;"	v
+subatoms	cilrep.ml	/^  method subatoms = true $/;"	m
+subatoms	search.ml	/^        let subatoms = variant#subatoms && !subatom_mutp > 0.0 in$/;"	v
+subdir	multiopt.ml	/^          let subdir = Rep.add_subdir (Some prefix) in$/;"	v
+subdir	rep.ml	/^              let subdir = add_subdir (Some("coverage")) in $/;"	v
+success_info	search.ml	/^let success_info = ref []$/;"	v
+sum	pellacini.ml	/^      let sum = sumlist lst in$/;"	v
+sum	search.ml	/^		let sum = ref 0.0 in$/;"	v
+sumlist	pellacini.ml	/^let sumlist lst = $/;"	v
+super_mutant	rep.ml	/^let super_mutant = ref false $/;"	v
+super_mutant_atoi_varinfo	cilrep.ml	/^let super_mutant_atoi_varinfo = $/;"	v
+super_mutant_getenv_varinfo	cilrep.ml	/^let super_mutant_getenv_varinfo = $/;"	v
+super_mutant_global_varinfo	cilrep.ml	/^let super_mutant_global_varinfo =$/;"	v
+super_mutant_size	rep.ml	/^let super_mutant_size = ref 50 $/;"	v
+super_mutants	search.ml	/^  let super_mutants = Hashtbl.create 2047 in $/;"	v
+swap	asmrep.ml	/^  method swap i_off j_off =$/;"	m
+swap	cilrep.ml	/^            let swap,swap_with = $/;"	v
+swap	cilrep.ml	/^  method swap stmt_id1 stmt_id2 = begin$/;"	m
+swap	llvmrep.ml	/^  method swap i j =$/;"	m
+swap	stringrep.ml	/^  method swap i j = $/;"	m
+swapVisitor	cilrep.ml	/^class swapVisitor $/;"	c
+swap_bug	cilrep.ml	/^let swap_bug = ref false $/;"	v
+swap_prob	search.ml	/^let swap_prob = ref 0.33333$/;"	v
+swap_sources	cilrep.ml	/^  method swap_sources append_after = $/;"	m
+swaps	search.ml	/^  let swaps = $/;"	v
+swaps_fit	search.ml	/^  let swaps_fit = fitness swaps in$/;"	v
+t	cdiff.ml	/^  type t = tree_node * tree_node$/;"	t	Module:OrderedNodeNode
+t	cdiff.ml	/^  type t = tree_node$/;"	t	Module:OrderedNode
+t	stats2.ml	/^type t = {$/;"	t
+t1	search.ml	/^      let t1 = Unix.gettimeofday () in $/;"	v
+t2	search.ml	/^      let t2 = Unix.gettimeofday () in $/;"	v
+take_neutral_steps	search.ml	/^    let rec take_neutral_steps pop step =$/;"	v
+tauPointsTo	golf.ml	/^let rec tauPointsTo (l : tau) : absloc list =$/;"	v
+temp	elfrep.ml	/^        let temp = Array.get !bytes i in$/;"	v
+temp_variant	cilrep.ml	/^    let temp_variant = (new patchCilRep) in $/;"	v
+templateReplace	cilrep.ml	/^class templateReplace replacements_lval replacements_exp replacements_stmt = object$/;"	c
+template_available_mutations	cilrep.ml	/^  method template_available_mutations template_name location_id =$/;"	m
+template_cache_file	cilrep.ml	/^let template_cache_file = ref ""$/;"	v
+template_code_ht	cilrep.ml	/^    let template_code_ht = hcreate 10 in$/;"	v
+template_constraints	cilrep.ml	/^              let template_constraints = $/;"	v
+template_constraints	cilrep.ml	/^              let template_constraints = List.sort (fun (k1,_) (k2,_) -> compare k1 k2) template_constraints in$/;"	v
+template_constraints	cilrep.ml	/^              let template_constraints = StringMap.fold (fun k v acc -> (k,v) :: acc) template_constraints [] in$/;"	v
+template_constraints_ht	cilrep.ml	/^    let template_constraints_ht = hcreate 10 in$/;"	v
+template_name	cilrep.ml	/^    let template_name = ref "" in$/;"	v
+templates	search.ml	/^let templates = ref ""$/;"	v
+test_cache_add	rep.ml	/^let test_cache_add digest test result =$/;"	v
+test_cache_load	rep.ml	/^let test_cache_load () = $/;"	v
+test_cache_save	rep.ml	/^let test_cache_save () = $/;"	v
+test_cache_version	rep.ml	/^let test_cache_version = 4$/;"	v
+test_case	rep.ml	/^  method test_case test = $/;"	m
+test_case_evals	search.ml	/^type info = { generation : int ; test_case_evals : int }$/;"	r	type:info
+test_cases	rep.ml	/^  method test_cases tests =$/;"	m
+test_command	rep.ml	/^let test_command = ref ""$/;"	v
+test_cost	search.ml	/^  mutable test_cost : float TestMap.t ; (* "test runtime in seconds" *) $/;"	r	type:adaptive_model_1
+test_fail_count	search.ml	/^  mutable test_fail_count : float TestMap.t ; $/;"	r	type:adaptive_model_1
+test_fitness	fitness.ml	/^let test_fitness generation (rep : ('a,'b) Rep.representation) = $/;"	v
+test_fitness_all	fitness.ml	/^let test_fitness_all rep = test_sample rep (1 -- !pos_tests) $/;"	v
+test_fitness_all_three	fitness.ml	/^let test_fitness_all_three (rep) (generation) : (float * float) * ((float * float) * (float * float)) option = $/;"	v
+test_fitness_generation	fitness.ml	/^let test_fitness_generation rep generation =$/;"	v
+test_fitness_variant	fitness.ml	/^let test_fitness_variant rep = $/;"	v
+test_name	rep.ml	/^let test_name t = match t with$/;"	v
+test_pass_count	search.ml	/^  mutable test_pass_count : float TestMap.t ; $/;"	r	type:adaptive_model_1
+test_sample	fitness.ml	/^let test_sample (rep) (sample) : float * float = $/;"	v
+test_script	rep.ml	/^let test_script = ref ".\/test.sh" $/;"	v
+test_set	search.ml	/^      let test_set = tests_of_e edit in $/;"	v
+test_suite_evals	network.ml	/^    let test_suite_evals = Printf.sprintf "%d" test_suite_evals in$/;"	v
+test_suite_evals	network.ml	/^    let test_suite_evals =$/;"	v
+test_to_first_failure	fitness.ml	/^let test_to_first_failure (rep :('a,'b) Rep.representation) : bool = $/;"	v
+tested	rep.ml	/^let tested = (Hashtbl.create 4095 : $/;"	v
+tests	search.ml	/^      let tests = TestSet.elements test_set in $/;"	v
+tests_visiting_atoms	rep.ml	/^  method tests_visiting_atoms (atomset : AtomSet.t) : TestSet.t = $/;"	m
+tests_visiting_edited_atoms	rep.ml	/^  method tests_visiting_edited_atoms () : TestSet.t = $/;"	m
+tex_ht	pellacini.ml	/^let tex_ht = Hashtbl.create 255 $/;"	v
+the_action	cilrep.ml	/^        let the_action = String.get x 0 in$/;"	v
+the_global_ht	nhtserver.ml	/^let the_global_ht = ref (Hashtbl.create 4095) $/;"	v
+the_id	diffprocessor.ml	/^      let the_id =$/;"	v
+the_last	diffprocessor.ml	/^      let the_last = $/;"	v
+the_method	pellacini.ml	/^let the_method = ref "" $/;"	v
+the_node	diffprocessor.ml	/^                        let the_node = $/;"	v
+the_xform	cilrep.ml	/^    let the_xform stmt = $/;"	v
+this_append	search.ml	/^      let this_append = ((Append(dest,src)),thunk, w1) in $/;"	v
+this_partition	progeq.ml	/^        let this_partition = partition_block files fd.sbody edit_effects in$/;"	v
+thunk	search.ml	/^      let thunk () =$/;"	v
+time	stats2.ml	/^let time name f a = $/;"	v
+time2	search.ml	/^	let time2 = Unix.gettimeofday() in$/;"	v
+time3	search.ml	/^  let time3 = Unix.gettimeofday () in $/;"	v
+time_at_start	edit.ml	/^let time_at_start = Unix.gettimeofday () $/;"	v
+time_at_start	main.ml	/^let time_at_start = Unix.gettimeofday () $/;"	v
+time_now	rep.ml	/^        let time_now = Unix.gettimeofday () in $/;"	v
+time_taken	search.ml	/^let time_taken = ref 0.0 in$/;"	v
+tmp	network.ml	/^                let tmp = String.index hist ',' in$/;"	v
+toStringCilPrinter	cilprinter.ml	/^let toStringCilPrinter = new toStringCilPrinterClass  $/;"	v
+toStringCilPrinterClass	cilprinter.ml	/^class toStringCilPrinterClass $/;"	c
+to_act	diffprocessor.ml	/^            let to_act = $/;"	v
+to_add	multiopt.ml	/^          let to_add = $/;"	v
+to_delete	cilrep.ml	/^              let to_delete = $/;"	v
+to_normalize	pellacini.ml	/^          let to_normalize = !variants in $/;"	v
+to_send	nhtserver.ml	/^                    let to_send = length - offset in $/;"	v
+todo	progeq.ml	/^    let todo = List.filter (fun fd ->$/;"	v
+toposort_globals	cilrep.ml	/^let toposort_globals$/;"	v
+toposort_one	cilrep.ml	/^let rec toposort_one instantiations visited gs root =$/;"	v
+total	stats2.ml	/^  let total = List.fold_left (fun acc (ename,et) -> acc +. et) 0.0 lst in $/;"	v
+total_count	search.ml	/^let total_count = del_del_count + del_app_count + app_app_count in$/;"	v
+total_seen	rep.ml	/^        let total_seen = ref 0 in $/;"	v
+total_tests	rep.ml	/^        let total_tests = ref 0 in $/;"	v
+total_time_d	search.ml	/^		let total_time_d = total_time_h \/. 24.0 in$/;"	v
+total_time_h	search.ml	/^		let total_time_h = total_time_s \/. 3600.0 in $/;"	v
+total_time_s	search.ml	/^		let total_time_s = final_average *. (float_of_int total_count) in$/;"	v
+total_trials	search.ml	/^let total_trials = ref 0 in$/;"	v
+totals	stats2.ml	/^let totals = Hashtbl.create 255 $/;"	v
+tournament_k	population.ml	/^let tournament_k = ref 2$/;"	v
+tournament_p	population.ml	/^let tournament_p = ref 1.00$/;"	v
+tournament_selection	population.ml	/^  let tournament_selection ?compare_func (population : ('a,'b) t) desired =$/;"	v
+tpr	rep.ml	/^      let tpr = self#prepare_for_test_case test in$/;"	v
+traverse_expr	ptranal.ml	/^let rec traverse_expr (e : exp) : A.tau =$/;"	v
+trd3	global.ml	/^let trd3 (_,_,c) = c$/;"	v
+tree_node	cdiff.ml	/^type tree_node = {$/;"	t
+trials	search.ml	/^let trials = ref 0 in$/;"	v
+tries	search.ml	/^    let tries = ref 0 in$/;"	v
+tweet	global.ml	/^let tweet = ref false$/;"	v
+typelabel	cdiff.ml	/^  mutable typelabel : int ; $/;"	r	type:tree_node
+typelabel_counter	cdiff.ml	/^let typelabel_counter = ref 0 $/;"	v
+typelabel_ht	cdiff.ml	/^let typelabel_ht = Hashtbl.create 255 $/;"	v
+unify_int	golf.ml	/^let rec unify_int (t, t' : tau * tau) : unit =$/;"	v
+uniq	global.ml	/^let uniq lst = $/;"	v
+uniq_coverage	cilrep.ml	/^let uniq_coverage = ref false$/;"	v
+uniq_globals	cilrep.ml	/^    let uniq_globals = $/;"	v
+unsaved_writes	nhtserver.ml	/^let unsaved_writes = ref false $/;"	v
+updated	cilrep.ml	/^  method updated () =$/;"	m
+usageMsg	global.ml	/^let usageMsg = "Program Repair Prototype (v2)\\n" $/;"	v
+use_subdirs	rep.ml	/^let use_subdirs = ref false $/;"	v
+v	pellacini.ml	/^    let v = real_ify x in$/;"	v
+va_table	cilrep.ml	/^let va_table = Hashtbl.create 10$/;"	v
+values	pellacini.ml	/^         let values = List.map (fun v ->$/;"	v
+values	rep.ml	/^         let values = List.map (fun v ->$/;"	v
+var_mem_alias	progeq.ml	/^let var_mem_alias (varinfo : Cil.varinfo) (memexp : Cil.exp) : bool = $/;"	v
+variable_length	cilrep.ml	/^  method variable_length = false$/;"	m	class:astCilRep
+variable_length	elfrep.ml	/^  method variable_length = true$/;"	m
+variant	search.ml	/^      let variant, condition, undo_thunk = $/;"	v
+variant_of	search.ml	/^  let variant_of remaining (edit, thunk, weight) = $/;"	v
+variants	network.ml	/^  let variants =$/;"	v
+variants_exchanged	network.ml	/^let variants_exchanged = ref 50$/;"	v
+variants_explored_sofar	search.ml	/^  let variants_explored_sofar = ref 0 in $/;"	v
+varinfo	cilrep.ml	/^      varinfo : Cil.varinfo IntMap.t ;$/;"	r	type:ast_info
+varmap	cilrep.ml	/^    let varmap = ref !global_ast_info.varinfo in $/;"	v
+vars	distserver.ml	/^             let vars = $/;"	v
+vars_to_tweet	distserver.ml	/^             let vars_to_tweet = lrev (last_msg :: msgs) in$/;"	v
+vblock	cdiffmain.ml	/^  method vblock b = $/;"	m	class:everyVisitor
+vblock	cilrep.ml	/^    method vblock b = $/;"	m
+vblock	cilrep.ml	/^  method vblock b = $/;"	m
+vblock	cilrep.ml	/^  method vblock b = $/;"	m	class:emptyVisitor
+vblock	cilrep.ml	/^  method vblock b = $/;"	m	class:everyVisitor
+vblock	diffprocessor.ml	/^  method vblock b =$/;"	m	class:lineRangeVisitor
+vcount	pellacini.ml	/^            let vcount = ref 0 in $/;"	v
+verbose	cdiff.ml	/^let verbose = ref false$/;"	v
+verbose	nhtserver.ml	/^let verbose = ref false $/;"	v
+verbose_node_info	diffprocessor.ml	/^let verbose_node_info = hcreate 10$/;"	v
+version	population.ml	/^        let version = Marshal.from_channel fin in$/;"	v
+vexpr	cilrep.ml	/^        method vexpr e =$/;"	m	value:toposort_one/visitor
+vexpr	cilrep.ml	/^  method vexpr e = $/;"	m
+vexpr	cilrep.ml	/^  method vexpr exp =$/;"	m	class:templateReplace
+vexpr	diffprocessor.ml	/^  method vexpr e =$/;"	m	class:lineRangeVisitor
+vfunc	cgrep.ml	/^  method vfunc f = $/;"	m	class:simpleFunVisitor
+vfunc	cilrep.ml	/^  method vfunc f = $/;"	m
+vfunc	cilrep.ml	/^  method vfunc f = $/;"	m	class:livenessVisitor
+vfunc	cilrep.ml	/^  method vfunc fd =$/;"	m	class:findStmtVisitor
+vi	cilrep.ml	/^      let vi, _, _ = Hashtbl.find va_table x in$/;"	v
+vinst	diffprocessor.ml	/^  method vinst i =$/;"	m	class:lineRangeVisitor
+visited	cilrep.ml	/^  let visited = Hashtbl.create (List.length globals) in$/;"	v
+visited_atom_set	rep.ml	/^                let visited_atom_set = List.fold_left (fun acc elt ->$/;"	v
+visitor	cilrep.ml	/^            let visitor = object (self)$/;"	v
+vlval	cilrep.ml	/^        method vlval (host,off) =$/;"	m	value:toposort_one/visitor
+vlval	cilrep.ml	/^  method vlval lval = $/;"	m	class:templateReplace
+vlval	progeq.ml	/^  method vlval l =$/;"	m
+vnames	cilrep.ml	/^  let vnames =$/;"	v
+void_t	cilrep.ml	/^let void_t = Formatcil.cType "void *" [] $/;"	v
+vstmt	cdiffmain.ml	/^  method vstmt b = $/;"	m	class:numVisitor
+vstmt	cdiffmain.ml	/^  method vstmt s = s.sid <- 0 ; DoChildren$/;"	m	class:numToZeroVisitor
+vstmt	cilrep.ml	/^    method vstmt s = $/;"	m	class:getVisitor
+vstmt	cilrep.ml	/^    method vstmt s = ChangeDoChildrenPost(s, fun s ->$/;"	m	class:putVisitor
+vstmt	cilrep.ml	/^  method vstmt s = $/;"	m
+vstmt	cilrep.ml	/^  method vstmt s = $/;"	m	class:findAtomVisitor
+vstmt	cilrep.ml	/^  method vstmt s = $/;"	m	class:findBreakContinueVisitor
+vstmt	cilrep.ml	/^  method vstmt s = $/;"	m	class:getExpVisitor
+vstmt	cilrep.ml	/^  method vstmt s = $/;"	m	class:hasConditionalEdit
+vstmt	cilrep.ml	/^  method vstmt s = $/;"	m	class:putExpVisitor
+vstmt	cilrep.ml	/^  method vstmt s = $/;"	m	class:sidToLabelVisitor
+vstmt	cilrep.ml	/^  method vstmt s = ChangeDoChildrenPost(s, fun s ->$/;"	m	class:appVisitor
+vstmt	cilrep.ml	/^  method vstmt s = ChangeDoChildrenPost(s, fun s ->$/;"	m	class:replaceVisitor
+vstmt	cilrep.ml	/^  method vstmt s = ChangeDoChildrenPost(s, fun s ->$/;"	m	class:swapVisitor
+vstmt	cilrep.ml	/^  method vstmt s = s.sid <- 0 ; DoChildren$/;"	m	class:xformRepVisitor#numToZeroVisitor
+vstmt	cilrep.ml	/^  method vstmt s =$/;"	m	class:fixPutVisitor
+vstmt	cilrep.ml	/^  method vstmt stmt = $/;"	m	class:collectTypelabels
+vstmt	cilrep.ml	/^  method vstmt stmt = $/;"	m	class:templateReplace
+vstmt	cilrep.ml	/^  method vstmt stmt = ChangeDoChildrenPost(stmt, (fun stmt -> xform stmt))$/;"	m	class:xformRepVisitor
+vtype	cilrep.ml	/^              method vtype t =$/;"	m	value:visitor
+vtype	cilrep.ml	/^        method vtype t =$/;"	m	value:toposort_one/visitor
+vvdec	cilrep.ml	/^  method vvdec vinfo = $/;"	m
+vvrbl	cilrep.ml	/^        method vvrbl vi =$/;"	m	value:toposort_one/visitor
+w	pellacini.ml	/^                let w,h,all,r,g,b = load_texture (image ^ ".ppm") in $/;"	v
+w'	cilrep.ml	/^          let w' = Hashtbl.find fixes_seen pretty_printed in$/;"	v
+walk	search.ml	/^                let rec walk lst = match lst with$/;"	v
+walk	search.ml	/^    let rec walk best_sofar remaining = $/;"	v
+wanted	multiopt.ml	/^              let wanted = !Population.popsize - have_sofar in $/;"	v
+wanted	pellacini.ml	/^    let wanted = floatarray_size_of_ti ci.cname in$/;"	v
+whitespace	diffprocessor.ml	/^let whitespace = Str.regexp "[ \\t\\n]*"$/;"	v
+whitespace_newline_regexp	knownfuns.ml	/^let whitespace_newline_regexp = Str.regexp "[ \\t\\r\\n]+" $/;"	v
+whitespace_regexp	global.ml	/^let whitespace_regexp = space_regexp $/;"	v
+width	cilprinter.ml	/^let width = 32767 $/;"	v
+wins	search.ml	/^let wins  = ref 0 in$/;"	v
+with_arg	global.ml	/^let with_arg = [$/;"	v
+words	global.ml	/^        let words = Str.bounded_split space_regexp line 2 in $/;"	v
+wp	rep.ml	/^          let wp, fw = compute_localization_from_path_files () in$/;"	v
+wp	rep.ml	/^        let wp,fw = process_line_or_weight_file !fault_file !fault_scheme in $/;"	v
+write_file	sourcereader.ml	/^let write_file filename = begin$/;"	v
+write_offset	nhtserver.ml	/^  mutable write_offset : int * int; (* amount, length *) $/;"	r	type:connection
+write_payload	nhtserver.ml	/^  mutable write_payload : string ; $/;"	r	type:connection
+ww_adaptive_1	search.ml	/^let ww_adaptive_1 (original : ('a,'b) Rep.representation) incoming_pop =$/;"	v
+x	cdiff.ml	/^      let x = Queue.take q in $/;"	v
+x	pellacini.ml	/^                            let x = get_from_env ~warn:false ((Var(local),NoOffset)) in $/;"	v
+x	pellacini.ml	/^                          let x = get_from_env ~warn:false ((Var(formal),NoOffset)) in $/;"	v
+x	pellacini.ml	/^                let x = clamp 0 x (pred w) in $/;"	v
+x	pellacini.ml	/^                let x = int_of_float ra.(0) in $/;"	v
+x_sub_idx	search.ml	/^                let x_sub_idx = Random.int (List.length x_subs) in$/;"	v
+x_subs	search.ml	/^            let x_subs = variant#get_subatoms x in$/;"	v
+xformRepVisitor	cilrep.ml	/^class xformRepVisitor (xform : Cil.stmt -> Cil.stmt) = object(self)$/;"	c
+xnode	cdiff.ml	/^        let xnode = node_of_nid node_info xid in $/;"	v
+xparent1	cdiff.ml	/^            let xparent1 = parent_of node_info ast1 xnode in    $/;"	v
+xparent2	cdiff.ml	/^              let xparent2 = parent_of node_info ast2 xnode in $/;"	v
+xparent2	cdiff.ml	/^            let xparent2 = parent_of node_info ast2 xnode in $/;"	v
+y	pellacini.ml	/^                let y = clamp 0 y (pred h) in $/;"	v
+y	pellacini.ml	/^                let y = int_of_float ra.(1) in $/;"	v
+yet_another_fitness_cache	multiopt.ml	/^let yet_another_fitness_cache = Hashtbl.create 255$/;"	v
+ynode	cdiff.ml	/^            let ynode = node_of_nid node_info yid in $/;"	v
+ypos	cdiff.ml	/^            let ypos = match ypopt with$/;"	v
